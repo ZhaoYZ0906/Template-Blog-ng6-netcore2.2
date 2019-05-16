@@ -1,0 +1,1088 @@
+2019-04-13 16:12:25.513 +08:00 [INF] Starting IdentityServer4 version 2.4.0.0
+2019-04-13 16:12:25.732 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-13 16:12:25.744 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-04-13 16:12:25.745 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-04-13 16:12:25.746 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-04-13 16:12:25.747 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-04-13 16:12:25.747 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-04-13 16:12:25.748 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-04-13 16:12:27.844 +08:00 [DBG] Login Url: /Account/Login
+2019-04-13 16:12:27.850 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-13 16:12:27.852 +08:00 [DBG] Logout Url: /Account/Logout
+2019-04-13 16:12:27.854 +08:00 [DBG] ConsentUrl Url: /consent
+2019-04-13 16:12:27.855 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-13 16:12:27.856 +08:00 [DBG] Error Url: /home/error
+2019-04-13 16:12:27.856 +08:00 [DBG] Error Id Parameter: errorId
+2019-04-13 16:13:37.442 +08:00 [INF] Starting IdentityServer4 version 2.4.0.0
+2019-04-13 16:13:37.860 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-13 16:13:37.898 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-04-13 16:13:37.900 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-04-13 16:13:37.901 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-04-13 16:13:37.901 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-04-13 16:13:37.902 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-04-13 16:13:37.903 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-04-13 16:13:40.462 +08:00 [DBG] Login Url: /Account/Login
+2019-04-13 16:13:40.467 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-13 16:13:40.467 +08:00 [DBG] Logout Url: /Account/Logout
+2019-04-13 16:13:40.467 +08:00 [DBG] ConsentUrl Url: /consent
+2019-04-13 16:13:40.468 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-13 16:13:40.468 +08:00 [DBG] Error Url: /home/error
+2019-04-13 16:13:40.468 +08:00 [DBG] Error Id Parameter: errorId
+2019-04-13 16:13:50.852 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-13 16:13:51.545 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-13 16:13:51.546 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-13 16:13:51.550 +08:00 [DBG] Start discovery request
+2019-04-13 16:55:34.051 +08:00 [INF] Starting IdentityServer4 version 2.4.0.0
+2019-04-13 16:55:34.238 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-13 16:55:34.257 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-04-13 16:55:34.261 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-04-13 16:55:34.261 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-04-13 16:55:34.262 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-04-13 16:55:34.262 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-04-13 16:55:34.262 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-04-13 16:56:14.716 +08:00 [DBG] Login Url: /Account/Login
+2019-04-13 16:56:14.718 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-13 16:56:14.718 +08:00 [DBG] Logout Url: /Account/Logout
+2019-04-13 16:56:14.718 +08:00 [DBG] ConsentUrl Url: /consent
+2019-04-13 16:56:14.718 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-13 16:56:14.718 +08:00 [DBG] Error Url: /home/error
+2019-04-13 16:56:14.719 +08:00 [DBG] Error Id Parameter: errorId
+2019-04-13 16:56:14.764 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-13 16:56:15.116 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-13 16:56:15.118 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-13 16:56:15.124 +08:00 [DBG] Start discovery request
+2019-04-13 16:56:15.373 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-13 16:56:15.380 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-13 16:56:15.383 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-13 16:56:15.390 +08:00 [DBG] Start key discovery request
+2019-04-13 16:56:15.504 +08:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-13 16:56:15.511 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-13 16:56:15.511 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-13 16:56:15.517 +08:00 [DBG] Start authorize request
+2019-04-13 16:56:15.533 +08:00 [DBG] No user present in authorize request
+2019-04-13 16:56:15.540 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 16:56:15.585 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 16:56:15.618 +08:00 [ERR] Invalid redirect_uri: https://localhost:7001/signin-oidc
+{"ClientId":"mvcclient","ClientName":"MVC 客户端","RedirectUri":null,"AllowedRedirectUris":["http://localhost:7001/signin-oidc"],"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvcclient","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code id_token","scope":"openid","response_mode":"form_post","nonce":"636907425754311312.MzcwNjU3MzYtYmRmNS00ZGU1LTgwZjMtZGQ0NjEyNDNjOGVjNDMwZmUyOTEtMzc5MS00NmM3LWJmODYtYWQ0Yjk5MzkzYWM2","state":"CfDJ8EOLUvFYI8tGpPfBiOKhoEg7UJyc-wI7Bvt2383kkjMcW9sTatID9pyBe7Vli6nnnK8Sid9mZzNhGiP-XSJlQiQrc7R2Xm5Itt3lDkQeucBkqPyYMq39pueI0AG97cHf5W4lNkTu8lSxtHJ2LQQbmf6fQudSbFItVQFBmoB8lnn7Q5n_TnLieAnRsOshmxAWU74d7T-nXAyEWYkz7Bbn3Eb9jgysoB7kn9-qo0sB_Z_iqZjrYgLU9VFtR8NVUMiAd93g37ae0eyjEWbIcImEqK-lmw0-dCODbmAw_bOf5L8Y37gaCQnn3a5C87Xrr5GyNg","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.3.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-13 16:56:15.645 +08:00 [ERR] Request validation failed
+2019-04-13 16:56:15.646 +08:00 [INF] {"ClientId":"mvcclient","ClientName":"MVC 客户端","RedirectUri":null,"AllowedRedirectUris":["http://localhost:7001/signin-oidc"],"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvcclient","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code id_token","scope":"openid","response_mode":"form_post","nonce":"636907425754311312.MzcwNjU3MzYtYmRmNS00ZGU1LTgwZjMtZGQ0NjEyNDNjOGVjNDMwZmUyOTEtMzc5MS00NmM3LWJmODYtYWQ0Yjk5MzkzYWM2","state":"CfDJ8EOLUvFYI8tGpPfBiOKhoEg7UJyc-wI7Bvt2383kkjMcW9sTatID9pyBe7Vli6nnnK8Sid9mZzNhGiP-XSJlQiQrc7R2Xm5Itt3lDkQeucBkqPyYMq39pueI0AG97cHf5W4lNkTu8lSxtHJ2LQQbmf6fQudSbFItVQFBmoB8lnn7Q5n_TnLieAnRsOshmxAWU74d7T-nXAyEWYkz7Bbn3Eb9jgysoB7kn9-qo0sB_Z_iqZjrYgLU9VFtR8NVUMiAd93g37ae0eyjEWbIcImEqK-lmw0-dCODbmAw_bOf5L8Y37gaCQnn3a5C87Xrr5GyNg","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.3.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-13 16:56:15.681 +08:00 [INF] {"ClientId":"mvcclient","ClientName":"MVC 客户端","RedirectUri":null,"Endpoint":"Authorize","SubjectId":null,"Scopes":"","GrantType":null,"Error":"unauthorized_client","ErrorDescription":"Invalid redirect_uri","Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HLLVTNG80S2I:00000001","TimeStamp":"2019-04-13T08:56:15.0000000Z","ProcessId":7676,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2019-04-13 16:57:42.847 +08:00 [INF] Starting IdentityServer4 version 2.4.0.0
+2019-04-13 16:57:42.957 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-13 16:57:42.972 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-04-13 16:57:42.973 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-04-13 16:57:42.975 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-04-13 16:57:42.975 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-04-13 16:57:42.976 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-04-13 16:57:42.976 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-04-13 16:58:01.543 +08:00 [DBG] Login Url: /Account/Login
+2019-04-13 16:58:01.546 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-13 16:58:01.549 +08:00 [DBG] Logout Url: /Account/Logout
+2019-04-13 16:58:01.550 +08:00 [DBG] ConsentUrl Url: /consent
+2019-04-13 16:58:01.552 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-13 16:58:01.552 +08:00 [DBG] Error Url: /home/error
+2019-04-13 16:58:01.553 +08:00 [DBG] Error Id Parameter: errorId
+2019-04-13 16:58:01.590 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-13 16:58:01.838 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-13 16:58:01.839 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-13 16:58:01.845 +08:00 [DBG] Start discovery request
+2019-04-13 16:58:02.218 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-13 16:58:02.225 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-13 16:58:02.227 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-13 16:58:02.236 +08:00 [DBG] Start key discovery request
+2019-04-13 16:58:02.399 +08:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-13 16:58:02.407 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-13 16:58:02.408 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-13 16:58:02.416 +08:00 [DBG] Start authorize request
+2019-04-13 16:58:02.433 +08:00 [DBG] No user present in authorize request
+2019-04-13 16:58:02.441 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 16:58:02.471 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 16:58:02.484 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 16:58:02.487 +08:00 [DBG] No PKCE used.
+2019-04-13 16:58:02.529 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 16:58:02.560 +08:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"mvcclient","ClientName":"MVC 客户端","RedirectUri":"https://localhost:7001/signin-oidc","AllowedRedirectUris":["https://localhost:7001/signin-oidc"],"SubjectId":"anonymous","ResponseType":"code id_token","ResponseMode":"form_post","GrantType":"hybrid","RequestedScopes":"openid","State":"CfDJ8EOLUvFYI8tGpPfBiOKhoEhDWz_-DrkSRdPML1OBXUc0xJTj_xUp3UHnsT-0itMo1WLC-LSfCpbj72ZyjArAKEKl0_iF7aRMwCDBeON02TcVNQGJ9nFE_9O4D82x-Wj-Uwv6hjRSkcE7Vcfcdvqsnn-PZpNvewtAQ_zC7VrQnh8hJFBGlnFsJkqRkjU5tehTo5m7atpWkZm215VRc3rsEu26OpgSg2M3KgiBQBcSw_KeqrkZyLG0aIpsNfqokiCbm_h3kSP8QP159dGMFB0VS7YSplm5iVd03HZ1tBT2q5Q5HyyMx3cB92TmeW_zmL3lyA","UiLocales":null,"Nonce":"636907426822888082.NDkwYjIxNDMtOGZiNi00NmZiLWE4NjMtMTM1Yzc2YTVhODcyNGNmOTgwNGMtYWMwNS00N2M5LWE5NWUtYjJmZGUxNjExYjRl","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvcclient","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code id_token","scope":"openid","response_mode":"form_post","nonce":"636907426822888082.NDkwYjIxNDMtOGZiNi00NmZiLWE4NjMtMTM1Yzc2YTVhODcyNGNmOTgwNGMtYWMwNS00N2M5LWE5NWUtYjJmZGUxNjExYjRl","state":"CfDJ8EOLUvFYI8tGpPfBiOKhoEhDWz_-DrkSRdPML1OBXUc0xJTj_xUp3UHnsT-0itMo1WLC-LSfCpbj72ZyjArAKEKl0_iF7aRMwCDBeON02TcVNQGJ9nFE_9O4D82x-Wj-Uwv6hjRSkcE7Vcfcdvqsnn-PZpNvewtAQ_zC7VrQnh8hJFBGlnFsJkqRkjU5tehTo5m7atpWkZm215VRc3rsEu26OpgSg2M3KgiBQBcSw_KeqrkZyLG0aIpsNfqokiCbm_h3kSP8QP159dGMFB0VS7YSplm5iVd03HZ1tBT2q5Q5HyyMx3cB92TmeW_zmL3lyA","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.3.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-13 16:58:02.607 +08:00 [INF] Showing login: User is not authenticated
+2019-04-13 16:58:02.824 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 16:58:02.825 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 16:58:02.825 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 16:58:02.826 +08:00 [DBG] No PKCE used.
+2019-04-13 16:58:02.826 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 16:58:02.829 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:05:32.762 +08:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-13 17:05:32.810 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:05:32.810 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:05:32.813 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:05:32.814 +08:00 [DBG] No PKCE used.
+2019-04-13 17:05:32.816 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:05:34.028 +08:00 [ERR] An exception occurred while iterating over the results of a query for context type 'BolgIdp.Data.ApplicationDbContext'.
+System.ArgumentException: Keyword not supported: 'database'.
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.GetIndex(String keyword)
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Microsoft.Data.Sqlite.SqliteConnection.set_ConnectionString(String value)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.CreateDbConnection()
+   at Microsoft.EntityFrameworkCore.Internal.LazyRef`1.get_Value()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\First.cs:line 144
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Select.cs:line 106
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\AsyncIterator.cs:line 98
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+System.ArgumentException: Keyword not supported: 'database'.
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.GetIndex(String keyword)
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Microsoft.Data.Sqlite.SqliteConnection.set_ConnectionString(String value)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.CreateDbConnection()
+   at Microsoft.EntityFrameworkCore.Internal.LazyRef`1.get_Value()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\First.cs:line 144
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Select.cs:line 106
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\AsyncIterator.cs:line 98
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+2019-04-13 17:05:34.053 +08:00 [ERR] An exception occurred while iterating over the results of a query for context type 'BolgIdp.Data.ApplicationDbContext'.
+System.ArgumentException: Keyword not supported: 'database'.
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.GetIndex(String keyword)
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Microsoft.Data.Sqlite.SqliteConnection.set_ConnectionString(String value)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.CreateDbConnection()
+   at Microsoft.EntityFrameworkCore.Internal.LazyRef`1.get_Value()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\First.cs:line 144
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Select.cs:line 106
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\AsyncIterator.cs:line 98
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+System.ArgumentException: Keyword not supported: 'database'.
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.GetIndex(String keyword)
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Microsoft.Data.Sqlite.SqliteConnection.set_ConnectionString(String value)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.CreateDbConnection()
+   at Microsoft.EntityFrameworkCore.Internal.LazyRef`1.get_Value()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\First.cs:line 144
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Select.cs:line 106
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\AsyncIterator.cs:line 98
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+2019-04-13 17:05:34.085 +08:00 [ERR] An exception occurred while calculating the database error page content. Skipping display of the database error page.
+System.ArgumentException: Keyword not supported: 'database'.
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.GetIndex(String keyword)
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.CreateReadOnlyConnection()
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteDatabaseCreator.Exists()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.ExistsAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+2019-04-13 17:05:34.090 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: Keyword not supported: 'database'.
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.GetIndex(String keyword)
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Microsoft.Data.Sqlite.SqliteConnection.set_ConnectionString(String value)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.CreateDbConnection()
+   at Microsoft.EntityFrameworkCore.Internal.LazyRef`1.get_Value()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\First.cs:line 144
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Select.cs:line 106
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\AsyncIterator.cs:line 98
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.SignInManager`1.PasswordSignInAsync(String userName, String password, Boolean isPersistent, Boolean lockoutOnFailure)
+   at IdentityServer4.Quickstart.UI.AccountController.Login(LoginInputModel model, String button) in E:\SandTablePriject\BlogDemo.API\BlogDemo\BolgIdp\Quickstart\Account\AccountController.cs:line 107
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\src\Hosting\IdentityServerMiddleware.cs:line 72
+   at IdentityServer4.Hosting.MutualTlsTokenEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\src\Hosting\MtlsTokenEndpointMiddleware.cs:line 60
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.InvokeCore(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\src\Hosting\BaseUrlMiddleware.cs:line 36
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-04-13 17:07:11.702 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-13 17:07:11.704 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-13 17:07:11.704 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-13 17:07:11.705 +08:00 [DBG] Start discovery request
+2019-04-13 17:07:11.938 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-13 17:07:11.940 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-13 17:07:11.943 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-13 17:07:11.946 +08:00 [DBG] Start key discovery request
+2019-04-13 17:07:12.100 +08:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-13 17:07:12.102 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-13 17:07:12.103 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-13 17:07:12.105 +08:00 [DBG] Start authorize request
+2019-04-13 17:07:12.106 +08:00 [DBG] No user present in authorize request
+2019-04-13 17:07:12.107 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:07:12.111 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:07:12.114 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:07:12.115 +08:00 [DBG] No PKCE used.
+2019-04-13 17:07:12.117 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:07:12.121 +08:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"mvcclient","ClientName":"MVC 客户端","RedirectUri":"https://localhost:7001/signin-oidc","AllowedRedirectUris":["https://localhost:7001/signin-oidc"],"SubjectId":"anonymous","ResponseType":"code id_token","ResponseMode":"form_post","GrantType":"hybrid","RequestedScopes":"openid","State":"CfDJ8EOLUvFYI8tGpPfBiOKhoEiVdtNgZskT-jnqh6hG0Xdx5XwXyXQtxkgaNlk1Cc34cFteh_PXkSippPqcTNq7f4p_G8BUNGm_xiHzjUdiXApo_RDAssuyC9sq85s9G-TINjbsaPliGdhjb2JuVScin86yNJ3-45QH3K-gv3L1mSZrr1xg4izn3_8k0XwTYy8bmQzzSwjL0qvKJgcHiN8W_f7Gvr-KlQ7QrLhlqwxM5RTxvjIvvB3xiw7__HvPzKo7Zgbo9p36bX0PvmUJmvVH9QR-suiRL4zET9E7ACeWsAijHQQUOZ0egDHI5YEs08WMZQ","UiLocales":null,"Nonce":"636907432319803869.OGQ5MzMzYjktYWU5NS00NTU1LTk5ZmYtZmU2ZGEzNTUxZmM1NjJiNzg2YjAtMDE1Ni00NGIwLThhYTYtZTc4NWJiNDhkZDU3","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvcclient","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code id_token","scope":"openid","response_mode":"form_post","nonce":"636907432319803869.OGQ5MzMzYjktYWU5NS00NTU1LTk5ZmYtZmU2ZGEzNTUxZmM1NjJiNzg2YjAtMDE1Ni00NGIwLThhYTYtZTc4NWJiNDhkZDU3","state":"CfDJ8EOLUvFYI8tGpPfBiOKhoEiVdtNgZskT-jnqh6hG0Xdx5XwXyXQtxkgaNlk1Cc34cFteh_PXkSippPqcTNq7f4p_G8BUNGm_xiHzjUdiXApo_RDAssuyC9sq85s9G-TINjbsaPliGdhjb2JuVScin86yNJ3-45QH3K-gv3L1mSZrr1xg4izn3_8k0XwTYy8bmQzzSwjL0qvKJgcHiN8W_f7Gvr-KlQ7QrLhlqwxM5RTxvjIvvB3xiw7__HvPzKo7Zgbo9p36bX0PvmUJmvVH9QR-suiRL4zET9E7ACeWsAijHQQUOZ0egDHI5YEs08WMZQ","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.3.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-13 17:07:12.145 +08:00 [INF] Showing login: User is not authenticated
+2019-04-13 17:07:12.151 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:07:12.151 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:07:12.153 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:07:12.153 +08:00 [DBG] No PKCE used.
+2019-04-13 17:07:12.154 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:07:12.156 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:07:22.871 +08:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-13 17:07:22.880 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:07:22.881 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:07:22.881 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:07:22.882 +08:00 [DBG] No PKCE used.
+2019-04-13 17:07:22.883 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:07:22.903 +08:00 [ERR] An exception occurred while iterating over the results of a query for context type 'BolgIdp.Data.ApplicationDbContext'.
+System.ArgumentException: Keyword not supported: 'database'.
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.GetIndex(String keyword)
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Microsoft.Data.Sqlite.SqliteConnection.set_ConnectionString(String value)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.CreateDbConnection()
+   at Microsoft.EntityFrameworkCore.Internal.LazyRef`1.get_Value()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\First.cs:line 144
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Select.cs:line 106
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\AsyncIterator.cs:line 98
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+System.ArgumentException: Keyword not supported: 'database'.
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.GetIndex(String keyword)
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Microsoft.Data.Sqlite.SqliteConnection.set_ConnectionString(String value)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.CreateDbConnection()
+   at Microsoft.EntityFrameworkCore.Internal.LazyRef`1.get_Value()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\First.cs:line 144
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Select.cs:line 106
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\AsyncIterator.cs:line 98
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+2019-04-13 17:07:22.921 +08:00 [ERR] An exception occurred while iterating over the results of a query for context type 'BolgIdp.Data.ApplicationDbContext'.
+System.ArgumentException: Keyword not supported: 'database'.
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.GetIndex(String keyword)
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Microsoft.Data.Sqlite.SqliteConnection.set_ConnectionString(String value)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.CreateDbConnection()
+   at Microsoft.EntityFrameworkCore.Internal.LazyRef`1.get_Value()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\First.cs:line 144
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Select.cs:line 106
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\AsyncIterator.cs:line 98
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+System.ArgumentException: Keyword not supported: 'database'.
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.GetIndex(String keyword)
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Microsoft.Data.Sqlite.SqliteConnection.set_ConnectionString(String value)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.CreateDbConnection()
+   at Microsoft.EntityFrameworkCore.Internal.LazyRef`1.get_Value()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\First.cs:line 144
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Select.cs:line 106
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\AsyncIterator.cs:line 98
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+2019-04-13 17:07:22.939 +08:00 [ERR] An exception occurred while calculating the database error page content. Skipping display of the database error page.
+System.ArgumentException: Keyword not supported: 'database'.
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.GetIndex(String keyword)
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.CreateReadOnlyConnection()
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteDatabaseCreator.Exists()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.ExistsAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+2019-04-13 17:07:22.943 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: Keyword not supported: 'database'.
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.GetIndex(String keyword)
+   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Microsoft.Data.Sqlite.SqliteConnection.set_ConnectionString(String value)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.CreateDbConnection()
+   at Microsoft.EntityFrameworkCore.Internal.LazyRef`1.get_Value()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\First.cs:line 144
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Select.cs:line 106
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\AsyncIterator.cs:line 98
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.SignInManager`1.PasswordSignInAsync(String userName, String password, Boolean isPersistent, Boolean lockoutOnFailure)
+   at IdentityServer4.Quickstart.UI.AccountController.Login(LoginInputModel model, String button) in E:\SandTablePriject\BlogDemo.API\BlogDemo\BolgIdp\Quickstart\Account\AccountController.cs:line 107
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\src\Hosting\IdentityServerMiddleware.cs:line 72
+   at IdentityServer4.Hosting.MutualTlsTokenEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\src\Hosting\MtlsTokenEndpointMiddleware.cs:line 60
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.InvokeCore(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\src\Hosting\BaseUrlMiddleware.cs:line 36
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-04-13 17:07:29.864 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:07:29.864 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:07:29.866 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:07:29.866 +08:00 [DBG] No PKCE used.
+2019-04-13 17:07:29.867 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:07:29.867 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:09:07.047 +08:00 [INF] Starting IdentityServer4 version 2.4.0.0
+2019-04-13 17:09:07.141 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-13 17:09:07.155 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-04-13 17:09:07.156 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-04-13 17:09:07.157 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-04-13 17:09:07.157 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-04-13 17:09:07.158 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-04-13 17:09:07.159 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-04-13 17:11:05.005 +08:00 [DBG] Login Url: /Account/Login
+2019-04-13 17:11:05.007 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-13 17:11:05.009 +08:00 [DBG] Logout Url: /Account/Logout
+2019-04-13 17:11:05.010 +08:00 [DBG] ConsentUrl Url: /consent
+2019-04-13 17:11:05.010 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-13 17:11:05.010 +08:00 [DBG] Error Url: /home/error
+2019-04-13 17:11:05.011 +08:00 [DBG] Error Id Parameter: errorId
+2019-04-13 17:11:05.042 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-13 17:11:05.360 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-13 17:11:05.361 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-13 17:11:05.366 +08:00 [DBG] Start discovery request
+2019-04-13 17:11:05.585 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-13 17:11:05.591 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-13 17:11:05.594 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-13 17:11:05.600 +08:00 [DBG] Start key discovery request
+2019-04-13 17:11:05.667 +08:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-13 17:11:05.672 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-13 17:11:05.673 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-13 17:11:05.681 +08:00 [DBG] Start authorize request
+2019-04-13 17:11:05.696 +08:00 [DBG] No user present in authorize request
+2019-04-13 17:11:05.704 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:11:05.727 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:11:05.734 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:11:05.736 +08:00 [DBG] No PKCE used.
+2019-04-13 17:11:05.783 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:11:05.804 +08:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"mvcclient","ClientName":"MVC 客户端","RedirectUri":"https://localhost:7001/signin-oidc","AllowedRedirectUris":["https://localhost:7001/signin-oidc"],"SubjectId":"anonymous","ResponseType":"code id_token","ResponseMode":"form_post","GrantType":"hybrid","RequestedScopes":"openid","State":"CfDJ8EOLUvFYI8tGpPfBiOKhoEht3bOkSAnKD3Ogtte5kwsW5cEmXXXE7hUNleFm5HkjC2oZrRnJjQLIaBHL8E3ulDhIIQ7e54cTbj9bzgQuNh8cqDbb3aULZyttoQE1MRpf-vGhp1UwUr0TjlLf-KQbrkT3bx8rPy-OOfjYtf8qcil0s6-ANAaFsaU69361s6nOeUC6J34T5YyKF7onNPG5L-X7PCwwPZMJ1ijXByvkkwyi2RPCsVFcn-fc5DdGv0OrrIK3DC4gPMwF4_UO7j0WhGsXUYG5hviKBaHyceMRy1XUVnWqv1b8lxnLRFl70aSZdQ","UiLocales":null,"Nonce":"636907434656384535.OTZjMWZjYmItNDlmZi00ZmNlLThlYzYtZWM2ZWM2N2Y3ZjUzNzBmMDk1YWYtZTc0NC00MGViLWI1OWItNjE1ZWJlODhlODJk","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvcclient","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code id_token","scope":"openid","response_mode":"form_post","nonce":"636907434656384535.OTZjMWZjYmItNDlmZi00ZmNlLThlYzYtZWM2ZWM2N2Y3ZjUzNzBmMDk1YWYtZTc0NC00MGViLWI1OWItNjE1ZWJlODhlODJk","state":"CfDJ8EOLUvFYI8tGpPfBiOKhoEht3bOkSAnKD3Ogtte5kwsW5cEmXXXE7hUNleFm5HkjC2oZrRnJjQLIaBHL8E3ulDhIIQ7e54cTbj9bzgQuNh8cqDbb3aULZyttoQE1MRpf-vGhp1UwUr0TjlLf-KQbrkT3bx8rPy-OOfjYtf8qcil0s6-ANAaFsaU69361s6nOeUC6J34T5YyKF7onNPG5L-X7PCwwPZMJ1ijXByvkkwyi2RPCsVFcn-fc5DdGv0OrrIK3DC4gPMwF4_UO7j0WhGsXUYG5hviKBaHyceMRy1XUVnWqv1b8lxnLRFl70aSZdQ","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.3.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-13 17:11:05.833 +08:00 [INF] Showing login: User is not authenticated
+2019-04-13 17:11:06.093 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:11:06.094 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:11:06.095 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:11:06.096 +08:00 [DBG] No PKCE used.
+2019-04-13 17:11:06.097 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:11:06.101 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:11:17.871 +08:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-13 17:11:17.929 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:11:17.929 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:11:17.931 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:11:17.931 +08:00 [DBG] No PKCE used.
+2019-04-13 17:11:17.931 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:11:22.614 +08:00 [ERR] Failed executing DbCommand (233ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+System.Data.SqlClient.SqlException (0x80131904): 对象名 'AspNetUsers' 无效。
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+ClientConnectionId:7155e6aa-a7ea-4f49-8acf-3034f71c483d
+Error Number:208,State:1,Class:16
+2019-04-13 17:11:23.228 +08:00 [ERR] An exception occurred while iterating over the results of a query for context type 'BolgIdp.Data.ApplicationDbContext'.
+System.Data.SqlClient.SqlException (0x80131904): 对象名 'AspNetUsers' 无效。
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\First.cs:line 144
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Select.cs:line 106
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\AsyncIterator.cs:line 98
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+ClientConnectionId:7155e6aa-a7ea-4f49-8acf-3034f71c483d
+Error Number:208,State:1,Class:16
+System.Data.SqlClient.SqlException (0x80131904): 对象名 'AspNetUsers' 无效。
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\First.cs:line 144
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Select.cs:line 106
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\AsyncIterator.cs:line 98
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+ClientConnectionId:7155e6aa-a7ea-4f49-8acf-3034f71c483d
+Error Number:208,State:1,Class:16
+2019-04-13 17:11:23.277 +08:00 [ERR] An exception occurred while iterating over the results of a query for context type 'BolgIdp.Data.ApplicationDbContext'.
+System.Data.SqlClient.SqlException (0x80131904): 对象名 'AspNetUsers' 无效。
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\First.cs:line 144
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Select.cs:line 106
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\AsyncIterator.cs:line 98
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+ClientConnectionId:7155e6aa-a7ea-4f49-8acf-3034f71c483d
+Error Number:208,State:1,Class:16
+System.Data.SqlClient.SqlException (0x80131904): 对象名 'AspNetUsers' 无效。
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\First.cs:line 144
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Select.cs:line 106
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\AsyncIterator.cs:line 98
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+ClientConnectionId:7155e6aa-a7ea-4f49-8acf-3034f71c483d
+Error Number:208,State:1,Class:16
+2019-04-13 17:13:20.347 +08:00 [INF] Starting IdentityServer4 version 2.4.0.0
+2019-04-13 17:13:20.415 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-13 17:13:20.425 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-04-13 17:13:20.426 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-04-13 17:13:20.427 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-04-13 17:13:20.427 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-04-13 17:13:20.428 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-04-13 17:13:20.429 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-04-13 17:13:38.486 +08:00 [DBG] Login Url: /Account/Login
+2019-04-13 17:13:38.488 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-13 17:13:38.489 +08:00 [DBG] Logout Url: /Account/Logout
+2019-04-13 17:13:38.489 +08:00 [DBG] ConsentUrl Url: /consent
+2019-04-13 17:13:38.489 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-13 17:13:38.490 +08:00 [DBG] Error Url: /home/error
+2019-04-13 17:13:38.490 +08:00 [DBG] Error Id Parameter: errorId
+2019-04-13 17:13:38.521 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-13 17:13:38.687 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-13 17:13:38.688 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-13 17:13:38.692 +08:00 [DBG] Start discovery request
+2019-04-13 17:13:38.893 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-13 17:13:38.902 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-13 17:13:38.903 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-13 17:13:38.907 +08:00 [DBG] Start key discovery request
+2019-04-13 17:13:39.007 +08:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-13 17:13:39.017 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-13 17:13:39.017 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-13 17:13:39.023 +08:00 [DBG] Start authorize request
+2019-04-13 17:13:39.039 +08:00 [DBG] No user present in authorize request
+2019-04-13 17:13:39.043 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:13:39.065 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:13:39.072 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:13:39.073 +08:00 [DBG] No PKCE used.
+2019-04-13 17:13:39.104 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:13:39.121 +08:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"mvcclient","ClientName":"MVC 客户端","RedirectUri":"https://localhost:7001/signin-oidc","AllowedRedirectUris":["https://localhost:7001/signin-oidc"],"SubjectId":"anonymous","ResponseType":"code id_token","ResponseMode":"form_post","GrantType":"hybrid","RequestedScopes":"openid","State":"CfDJ8EOLUvFYI8tGpPfBiOKhoEhGnJw4iB-7NeuW28ARCGjGoFNrhFoe22xxnosLxkILDzuWfKp9XF_0WlKDHqC5zZf7fq3xr9MA2o3h5PyxpdSzC46_yQ3IOujXYBteDKxbINhFTmVMlNQpL2G7h96956l6PEO5_PUtfCbhdcNK_yupUw9NEG_Y6T3M2zpfsCi_s2tAt8uOR1QRk0sPICw7MSV-9kpsCtno1qQho7ekkPpQI6xDWxGX9Q-dahRR32PNQFHdiFvrmOT8o4u99PFMXv9vNZBWZU_4mX-EmxM3YK-1qD_FfG5NxOG3dMEixFj-sQ","UiLocales":null,"Nonce":"636907436189401684.Y2NiYjZiNmItOTA5ZC00ZDY3LThhOTYtYmM4Y2U5M2NlMTZmOTVlNTg4MDYtN2IyYy00ZDkyLWIxM2YtOTczZGM2NDk0Y2Ri","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvcclient","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code id_token","scope":"openid","response_mode":"form_post","nonce":"636907436189401684.Y2NiYjZiNmItOTA5ZC00ZDY3LThhOTYtYmM4Y2U5M2NlMTZmOTVlNTg4MDYtN2IyYy00ZDkyLWIxM2YtOTczZGM2NDk0Y2Ri","state":"CfDJ8EOLUvFYI8tGpPfBiOKhoEhGnJw4iB-7NeuW28ARCGjGoFNrhFoe22xxnosLxkILDzuWfKp9XF_0WlKDHqC5zZf7fq3xr9MA2o3h5PyxpdSzC46_yQ3IOujXYBteDKxbINhFTmVMlNQpL2G7h96956l6PEO5_PUtfCbhdcNK_yupUw9NEG_Y6T3M2zpfsCi_s2tAt8uOR1QRk0sPICw7MSV-9kpsCtno1qQho7ekkPpQI6xDWxGX9Q-dahRR32PNQFHdiFvrmOT8o4u99PFMXv9vNZBWZU_4mX-EmxM3YK-1qD_FfG5NxOG3dMEixFj-sQ","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.3.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-13 17:13:39.152 +08:00 [INF] Showing login: User is not authenticated
+2019-04-13 17:13:39.351 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:13:39.352 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:13:39.353 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:13:39.353 +08:00 [DBG] No PKCE used.
+2019-04-13 17:13:39.354 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:13:39.358 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:13:49.460 +08:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-13 17:13:49.523 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:13:49.524 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:13:49.525 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:13:49.525 +08:00 [DBG] No PKCE used.
+2019-04-13 17:13:49.526 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:13:50.716 +08:00 [INF] {"Username":"bob","Endpoint":"UI","Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"0HLLVU17SMKIN:00000001","TimeStamp":"2019-04-13T09:13:50.0000000Z","ProcessId":7524,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2019-04-13 17:13:50.720 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:13:50.720 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:13:50.721 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:13:50.722 +08:00 [DBG] No PKCE used.
+2019-04-13 17:13:50.722 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:13:50.723 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:16:32.746 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-13 17:16:32.749 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-13 17:16:32.752 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-13 17:16:32.755 +08:00 [DBG] Start discovery request
+2019-04-13 17:16:32.919 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-13 17:16:32.922 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-13 17:16:32.923 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-13 17:16:32.924 +08:00 [DBG] Start key discovery request
+2019-04-13 17:16:33.036 +08:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-13 17:16:33.038 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-13 17:16:33.039 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-13 17:16:33.039 +08:00 [DBG] Start authorize request
+2019-04-13 17:16:33.040 +08:00 [DBG] No user present in authorize request
+2019-04-13 17:16:33.040 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:16:33.041 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:16:33.042 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:16:33.043 +08:00 [DBG] No PKCE used.
+2019-04-13 17:16:33.044 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:16:33.045 +08:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"mvcclient","ClientName":"MVC 客户端","RedirectUri":"https://localhost:7001/signin-oidc","AllowedRedirectUris":["https://localhost:7001/signin-oidc"],"SubjectId":"anonymous","ResponseType":"code id_token","ResponseMode":"form_post","GrantType":"hybrid","RequestedScopes":"openid","State":"CfDJ8EOLUvFYI8tGpPfBiOKhoEi7sEDyXuxv6ywSs9hsdubzn3pYdhElYt5lvvDZgtudltcO0Bni9gnHa3vl2hCTwiyo2mfi6OCq1RgA-14NYnLjrx--UXImzAq6wHBzkxnahM6m5jqnGhrduhrljl8Ukx-6tYE14kx5AxOcbfhzmh-KerA5eCGQdu666qpE62LsCxyULMUDuj-LzmJ5UT0vLKuQ_8bCdVj2XKoiy9rncYDArJDjqVmuAKCE1Gt53D9NvlCv3zVTmiQTGkGYcHoxUUgd2Que-z7ZAasBMguUZz4vuEBjpKU3vY-N4JOAzDEylQ","UiLocales":null,"Nonce":"636907437929707549.NjQzMDAwM2YtZGRkOC00NGFmLTgwNDAtYzg5MWNmZThhNTBjZGE3ZDA2ZGYtYmMyNi00ODYzLWEzMzktNGVmNDMyOTFkZDEz","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvcclient","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code id_token","scope":"openid","response_mode":"form_post","nonce":"636907437929707549.NjQzMDAwM2YtZGRkOC00NGFmLTgwNDAtYzg5MWNmZThhNTBjZGE3ZDA2ZGYtYmMyNi00ODYzLWEzMzktNGVmNDMyOTFkZDEz","state":"CfDJ8EOLUvFYI8tGpPfBiOKhoEi7sEDyXuxv6ywSs9hsdubzn3pYdhElYt5lvvDZgtudltcO0Bni9gnHa3vl2hCTwiyo2mfi6OCq1RgA-14NYnLjrx--UXImzAq6wHBzkxnahM6m5jqnGhrduhrljl8Ukx-6tYE14kx5AxOcbfhzmh-KerA5eCGQdu666qpE62LsCxyULMUDuj-LzmJ5UT0vLKuQ_8bCdVj2XKoiy9rncYDArJDjqVmuAKCE1Gt53D9NvlCv3zVTmiQTGkGYcHoxUUgd2Que-z7ZAasBMguUZz4vuEBjpKU3vY-N4JOAzDEylQ","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.3.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-13 17:16:33.054 +08:00 [INF] Showing login: User is not authenticated
+2019-04-13 17:16:33.058 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:16:33.058 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:16:33.059 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:16:33.060 +08:00 [DBG] No PKCE used.
+2019-04-13 17:16:33.060 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:16:33.061 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:16:48.621 +08:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-13 17:16:48.626 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:16:48.627 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:16:48.628 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:16:48.629 +08:00 [DBG] No PKCE used.
+2019-04-13 17:16:48.629 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:16:48.656 +08:00 [INF] {"Username":"bob","Endpoint":"UI","Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"0HLLVU17SMKIV:00000001","TimeStamp":"2019-04-13T09:16:48.0000000Z","ProcessId":7524,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2019-04-13 17:16:48.660 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:16:48.662 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:16:48.664 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:16:48.667 +08:00 [DBG] No PKCE used.
+2019-04-13 17:16:48.669 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:16:48.670 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:17:43.309 +08:00 [INF] Starting IdentityServer4 version 2.4.0.0
+2019-04-13 17:17:43.380 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-13 17:17:43.391 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-04-13 17:17:43.392 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-04-13 17:17:43.393 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-04-13 17:17:43.393 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-04-13 17:17:43.395 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-04-13 17:17:43.396 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-04-13 17:21:12.209 +08:00 [INF] Starting IdentityServer4 version 2.4.0.0
+2019-04-13 17:21:12.278 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-13 17:21:12.290 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-04-13 17:21:12.291 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-04-13 17:21:12.293 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-04-13 17:21:12.294 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-04-13 17:21:12.297 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-04-13 17:21:12.299 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-04-13 17:42:29.304 +08:00 [INF] Starting IdentityServer4 version 2.4.0.0
+2019-04-13 17:42:29.434 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-13 17:42:29.452 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-04-13 17:42:29.452 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-04-13 17:42:29.453 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-04-13 17:42:29.453 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-04-13 17:42:29.454 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-04-13 17:42:29.454 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-04-13 17:42:31.233 +08:00 [DBG] Login Url: /Account/Login
+2019-04-13 17:42:31.238 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-13 17:42:31.240 +08:00 [DBG] Logout Url: /Account/Logout
+2019-04-13 17:42:31.242 +08:00 [DBG] ConsentUrl Url: /consent
+2019-04-13 17:42:31.243 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-13 17:42:31.243 +08:00 [DBG] Error Url: /home/error
+2019-04-13 17:42:31.244 +08:00 [DBG] Error Id Parameter: errorId
+2019-04-13 17:43:42.844 +08:00 [INF] Starting IdentityServer4 version 2.4.0.0
+2019-04-13 17:43:42.912 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-13 17:43:42.922 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-04-13 17:43:42.923 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-04-13 17:43:42.923 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-04-13 17:43:42.923 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-04-13 17:43:42.924 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-04-13 17:43:42.925 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-04-13 17:43:52.872 +08:00 [DBG] Login Url: /Account/Login
+2019-04-13 17:43:52.874 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-13 17:43:52.875 +08:00 [DBG] Logout Url: /Account/Logout
+2019-04-13 17:43:52.875 +08:00 [DBG] ConsentUrl Url: /consent
+2019-04-13 17:43:52.876 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-13 17:43:52.876 +08:00 [DBG] Error Url: /home/error
+2019-04-13 17:43:52.877 +08:00 [DBG] Error Id Parameter: errorId
+2019-04-13 17:43:52.911 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-13 17:43:53.081 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-13 17:43:53.083 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-13 17:43:53.099 +08:00 [DBG] Start discovery request
+2019-04-13 17:43:53.431 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-13 17:43:53.438 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-13 17:43:53.439 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-13 17:43:53.444 +08:00 [DBG] Start key discovery request
+2019-04-13 17:43:53.559 +08:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-13 17:43:53.565 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-13 17:43:53.568 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-13 17:43:53.575 +08:00 [DBG] Start authorize request
+2019-04-13 17:43:53.590 +08:00 [DBG] No user present in authorize request
+2019-04-13 17:43:53.596 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:43:53.620 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:43:53.628 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:43:53.630 +08:00 [DBG] No PKCE used.
+2019-04-13 17:43:53.665 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:43:53.691 +08:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"mvcclient","ClientName":"MVC 客户端","RedirectUri":"https://localhost:7001/signin-oidc","AllowedRedirectUris":["https://localhost:7001/signin-oidc"],"SubjectId":"anonymous","ResponseType":"code id_token","ResponseMode":"form_post","GrantType":"hybrid","RequestedScopes":"openid","State":"CfDJ8EOLUvFYI8tGpPfBiOKhoEjmWDVW8FJi0ubljSAWIhEUZwjEBfjWj0lbbKbsnVIg-X3C1VyakzHxks-vlyjxbsfDasI_wIp_LXI94dSz3ItcGPpbsYeryNmkA_evGp-nnKSjPvvXNosswdnt5BTtgT4EcS08p51qmlzgoVU3YBy8pCmpCJHguRj6fAAOGPKkA7IaOhM_m5KI2sxULkS22soOmTjv63BwZVplgkmViUpIBncD0SHIYWyueAyd-7XBc8La6AmM3NjKs-Pw5MAIonZ5-iwrNgUlZdubPfYiItlYH_xq4NAXVOzxCG5Yk82wPQ","UiLocales":null,"Nonce":"636907454334836901.NjYxMTExNzYtM2Y0Zi00MTc1LWI3YWUtNmMyM2YyMDFlOGNlYTlhYjZhOWQtMmZkMC00MzI4LWJmY2ItMDAwYWMzMTE0YjNi","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvcclient","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code id_token","scope":"openid","response_mode":"form_post","nonce":"636907454334836901.NjYxMTExNzYtM2Y0Zi00MTc1LWI3YWUtNmMyM2YyMDFlOGNlYTlhYjZhOWQtMmZkMC00MzI4LWJmY2ItMDAwYWMzMTE0YjNi","state":"CfDJ8EOLUvFYI8tGpPfBiOKhoEjmWDVW8FJi0ubljSAWIhEUZwjEBfjWj0lbbKbsnVIg-X3C1VyakzHxks-vlyjxbsfDasI_wIp_LXI94dSz3ItcGPpbsYeryNmkA_evGp-nnKSjPvvXNosswdnt5BTtgT4EcS08p51qmlzgoVU3YBy8pCmpCJHguRj6fAAOGPKkA7IaOhM_m5KI2sxULkS22soOmTjv63BwZVplgkmViUpIBncD0SHIYWyueAyd-7XBc8La6AmM3NjKs-Pw5MAIonZ5-iwrNgUlZdubPfYiItlYH_xq4NAXVOzxCG5Yk82wPQ","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.3.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-13 17:43:53.726 +08:00 [INF] Showing login: User is not authenticated
+2019-04-13 17:43:53.906 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:43:53.906 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:43:53.907 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:43:53.908 +08:00 [DBG] No PKCE used.
+2019-04-13 17:43:53.909 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:43:53.915 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:44:02.621 +08:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-13 17:44:02.677 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:44:02.677 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:44:02.680 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:44:02.680 +08:00 [DBG] No PKCE used.
+2019-04-13 17:44:02.682 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:44:03.957 +08:00 [WRN] Invalid password for user 3437ed6f-657d-4533-a203-67afd0b619fb.
+2019-04-13 17:44:03.958 +08:00 [WRN] User 3437ed6f-657d-4533-a203-67afd0b619fb failed to provide the correct password.
+2019-04-13 17:44:04.216 +08:00 [INF] {"Username":"bob","Endpoint":"UI","Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"0HLLVUI4LG3CV:00000001","TimeStamp":"2019-04-13T09:44:04.0000000Z","ProcessId":8964,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2019-04-13 17:44:04.222 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:44:04.222 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:44:04.223 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:44:04.224 +08:00 [DBG] No PKCE used.
+2019-04-13 17:44:04.224 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:44:04.225 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:45:21.808 +08:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-13 17:45:21.815 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:45:21.816 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:45:21.817 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:45:21.820 +08:00 [DBG] No PKCE used.
+2019-04-13 17:45:21.821 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:45:22.114 +08:00 [DBG] Augmenting SignInContext
+2019-04-13 17:45:22.117 +08:00 [DBG] Adding idp claim with value: local
+2019-04-13 17:45:22.117 +08:00 [DBG] Adding amr claim with value: pwd
+2019-04-13 17:45:22.118 +08:00 [DBG] Adding auth_time claim with value: 1555148722
+2019-04-13 17:45:22.155 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2019-04-13 17:45:22.159 +08:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"3437ed6f-657d-4533-a203-67afd0b619fb","DisplayName":"bob","Endpoint":"UI","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLLVUI4LG3D1:00000001","TimeStamp":"2019-04-13T09:45:22.0000000Z","ProcessId":8964,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-04-13 17:45:22.441 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:45:22.495 +08:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-13 17:45:22.504 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-13 17:45:22.510 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-13 17:45:22.550 +08:00 [DBG] Start authorize callback request
+2019-04-13 17:45:22.559 +08:00 [DBG] User in authorize request: 3437ed6f-657d-4533-a203-67afd0b619fb
+2019-04-13 17:45:22.560 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:45:22.561 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:45:22.562 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:45:22.564 +08:00 [DBG] No PKCE used.
+2019-04-13 17:45:22.565 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:45:22.567 +08:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"mvcclient","ClientName":"MVC 客户端","RedirectUri":"https://localhost:7001/signin-oidc","AllowedRedirectUris":["https://localhost:7001/signin-oidc"],"SubjectId":"3437ed6f-657d-4533-a203-67afd0b619fb","ResponseType":"code id_token","ResponseMode":"form_post","GrantType":"hybrid","RequestedScopes":"openid","State":"CfDJ8EOLUvFYI8tGpPfBiOKhoEjmWDVW8FJi0ubljSAWIhEUZwjEBfjWj0lbbKbsnVIg-X3C1VyakzHxks-vlyjxbsfDasI_wIp_LXI94dSz3ItcGPpbsYeryNmkA_evGp-nnKSjPvvXNosswdnt5BTtgT4EcS08p51qmlzgoVU3YBy8pCmpCJHguRj6fAAOGPKkA7IaOhM_m5KI2sxULkS22soOmTjv63BwZVplgkmViUpIBncD0SHIYWyueAyd-7XBc8La6AmM3NjKs-Pw5MAIonZ5-iwrNgUlZdubPfYiItlYH_xq4NAXVOzxCG5Yk82wPQ","UiLocales":null,"Nonce":"636907454334836901.NjYxMTExNzYtM2Y0Zi00MTc1LWI3YWUtNmMyM2YyMDFlOGNlYTlhYjZhOWQtMmZkMC00MzI4LWJmY2ItMDAwYWMzMTE0YjNi","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"1139e97b3978f3b726101993642347ef","Raw":{"client_id":"mvcclient","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code id_token","scope":"openid","response_mode":"form_post","nonce":"636907454334836901.NjYxMTExNzYtM2Y0Zi00MTc1LWI3YWUtNmMyM2YyMDFlOGNlYTlhYjZhOWQtMmZkMC00MzI4LWJmY2ItMDAwYWMzMTE0YjNi","state":"CfDJ8EOLUvFYI8tGpPfBiOKhoEjmWDVW8FJi0ubljSAWIhEUZwjEBfjWj0lbbKbsnVIg-X3C1VyakzHxks-vlyjxbsfDasI_wIp_LXI94dSz3ItcGPpbsYeryNmkA_evGp-nnKSjPvvXNosswdnt5BTtgT4EcS08p51qmlzgoVU3YBy8pCmpCJHguRj6fAAOGPKkA7IaOhM_m5KI2sxULkS22soOmTjv63BwZVplgkmViUpIBncD0SHIYWyueAyd-7XBc8La6AmM3NjKs-Pw5MAIonZ5-iwrNgUlZdubPfYiItlYH_xq4NAXVOzxCG5Yk82wPQ","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.3.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-13 17:45:22.641 +08:00 [DBG] user_consent grant with value: mvcclient|3437ed6f-657d-4533-a203-67afd0b619fb not found in store.
+2019-04-13 17:45:22.642 +08:00 [DBG] Found no prior consent from consent store, consent is required
+2019-04-13 17:45:22.643 +08:00 [INF] Showing consent: User has not yet consented
+2019-04-13 17:45:22.668 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 17:45:22.669 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 17:45:22.669 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 17:45:22.670 +08:00 [DBG] No PKCE used.
+2019-04-13 17:45:22.670 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 17:45:22.671 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 19:41:18.676 +08:00 [INF] Starting IdentityServer4 version 2.4.0.0
+2019-04-13 19:41:18.750 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-13 19:41:18.761 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-04-13 19:41:18.761 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-04-13 19:41:18.762 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-04-13 19:41:18.762 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-04-13 19:41:18.762 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-04-13 19:41:18.762 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-04-13 19:41:31.749 +08:00 [DBG] Login Url: /Account/Login
+2019-04-13 19:41:31.752 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-13 19:41:31.752 +08:00 [DBG] Logout Url: /Account/Logout
+2019-04-13 19:41:31.753 +08:00 [DBG] ConsentUrl Url: /consent
+2019-04-13 19:41:31.754 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-13 19:41:31.755 +08:00 [DBG] Error Url: /home/error
+2019-04-13 19:41:31.755 +08:00 [DBG] Error Id Parameter: errorId
+2019-04-13 19:41:31.794 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-13 19:41:32.087 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-13 19:41:32.087 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-13 19:41:32.093 +08:00 [DBG] Start discovery request
+2019-04-13 19:41:32.327 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-13 19:41:32.334 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-13 19:41:32.335 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-13 19:41:32.339 +08:00 [DBG] Start key discovery request
+2019-04-13 19:41:34.139 +08:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-13 19:41:34.145 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-13 19:41:34.145 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-13 19:41:34.149 +08:00 [DBG] Start authorize request
+2019-04-13 19:41:34.161 +08:00 [DBG] User in authorize request: 3437ed6f-657d-4533-a203-67afd0b619fb
+2019-04-13 19:41:34.166 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 19:41:34.183 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 19:41:34.188 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 19:41:34.190 +08:00 [DBG] No PKCE used.
+2019-04-13 19:41:34.220 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 19:41:34.235 +08:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"mvcclient","ClientName":"MVC 客户端","RedirectUri":"https://localhost:7001/signin-oidc","AllowedRedirectUris":["https://localhost:7001/signin-oidc"],"SubjectId":"3437ed6f-657d-4533-a203-67afd0b619fb","ResponseType":"code id_token","ResponseMode":"form_post","GrantType":"hybrid","RequestedScopes":"openid","State":"CfDJ8EOLUvFYI8tGpPfBiOKhoEhLF8COhmVXsRRTMhOpDwg5zLJq344UdWPPdE7tPQL9o5RgGsGgTea3dytRjloh6bd7cDDOUFcvtbL7fHcFkplN3V5GgviWrGdD94FV9RFsL_NnStAUZmOUveaW0svLMzgTdF2FWhy7B3RKQpwQbeFFD-MYcpt-fegjMrrBwuni2Kya0OF-BpXSGqOUh5TlGnrbmnQ4E6X6miQh2QVw2BdSmPlcqx7X--m2Ui42_Aaj_SaLzm4J5nwwjDRWwIiQY-6hQYOwwMiINQZR8vHxfoiJ0IHoH9R8JtPK8k5nMDl3Eg","UiLocales":null,"Nonce":"636907524923731377.NWQwNjRmZDEtOWZiZS00MzY4LTgwMTAtOTY0ZTEwYjZkYWJhODMwN2UwMzQtZjFhYi00M2JhLTkxNWUtNjIwMGY3MDA2MTk0","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"1139e97b3978f3b726101993642347ef","Raw":{"client_id":"mvcclient","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code id_token","scope":"openid","response_mode":"form_post","nonce":"636907524923731377.NWQwNjRmZDEtOWZiZS00MzY4LTgwMTAtOTY0ZTEwYjZkYWJhODMwN2UwMzQtZjFhYi00M2JhLTkxNWUtNjIwMGY3MDA2MTk0","state":"CfDJ8EOLUvFYI8tGpPfBiOKhoEhLF8COhmVXsRRTMhOpDwg5zLJq344UdWPPdE7tPQL9o5RgGsGgTea3dytRjloh6bd7cDDOUFcvtbL7fHcFkplN3V5GgviWrGdD94FV9RFsL_NnStAUZmOUveaW0svLMzgTdF2FWhy7B3RKQpwQbeFFD-MYcpt-fegjMrrBwuni2Kya0OF-BpXSGqOUh5TlGnrbmnQ4E6X6miQh2QVw2BdSmPlcqx7X--m2Ui42_Aaj_SaLzm4J5nwwjDRWwIiQY-6hQYOwwMiINQZR8vHxfoiJ0IHoH9R8JtPK8k5nMDl3Eg","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.3.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-13 19:41:34.279 +08:00 [DBG] user_consent grant with value: mvcclient|3437ed6f-657d-4533-a203-67afd0b619fb not found in store.
+2019-04-13 19:41:34.280 +08:00 [DBG] Found no prior consent from consent store, consent is required
+2019-04-13 19:41:34.281 +08:00 [INF] Showing consent: User has not yet consented
+2019-04-13 19:41:34.484 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 19:41:34.484 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 19:41:34.485 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 19:41:34.485 +08:00 [DBG] No PKCE used.
+2019-04-13 19:41:34.485 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 19:41:34.487 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 19:41:52.062 +08:00 [DBG] CORS request made for path: /consent from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-13 19:41:52.108 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 19:41:52.108 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 19:41:52.109 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 19:41:52.109 +08:00 [DBG] No PKCE used.
+2019-04-13 19:41:52.110 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 19:41:52.121 +08:00 [INF] {"SubjectId":"3437ed6f-657d-4533-a203-67afd0b619fb","ClientId":"mvcclient","RequestedScopes":["openid"],"GrantedScopes":["openid"],"ConsentRemembered":false,"Category":"Grants","Name":"Consent granted","EventType":"Information","Id":4000,"Message":null,"ActivityId":"0HLM00JSC9VO4:00000001","TimeStamp":"2019-04-13T11:41:52.0000000Z","ProcessId":8584,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"ConsentGrantedEvent"}
+2019-04-13 19:41:52.140 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 19:41:52.144 +08:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-13 19:41:52.145 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-13 19:41:52.145 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-13 19:41:52.150 +08:00 [DBG] Start authorize callback request
+2019-04-13 19:41:52.155 +08:00 [DBG] User in authorize request: 3437ed6f-657d-4533-a203-67afd0b619fb
+2019-04-13 19:41:52.155 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 19:41:52.156 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 19:41:52.156 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 19:41:52.156 +08:00 [DBG] No PKCE used.
+2019-04-13 19:41:52.156 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 19:41:52.157 +08:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"mvcclient","ClientName":"MVC 客户端","RedirectUri":"https://localhost:7001/signin-oidc","AllowedRedirectUris":["https://localhost:7001/signin-oidc"],"SubjectId":"3437ed6f-657d-4533-a203-67afd0b619fb","ResponseType":"code id_token","ResponseMode":"form_post","GrantType":"hybrid","RequestedScopes":"openid","State":"CfDJ8EOLUvFYI8tGpPfBiOKhoEhLF8COhmVXsRRTMhOpDwg5zLJq344UdWPPdE7tPQL9o5RgGsGgTea3dytRjloh6bd7cDDOUFcvtbL7fHcFkplN3V5GgviWrGdD94FV9RFsL_NnStAUZmOUveaW0svLMzgTdF2FWhy7B3RKQpwQbeFFD-MYcpt-fegjMrrBwuni2Kya0OF-BpXSGqOUh5TlGnrbmnQ4E6X6miQh2QVw2BdSmPlcqx7X--m2Ui42_Aaj_SaLzm4J5nwwjDRWwIiQY-6hQYOwwMiINQZR8vHxfoiJ0IHoH9R8JtPK8k5nMDl3Eg","UiLocales":null,"Nonce":"636907524923731377.NWQwNjRmZDEtOWZiZS00MzY4LTgwMTAtOTY0ZTEwYjZkYWJhODMwN2UwMzQtZjFhYi00M2JhLTkxNWUtNjIwMGY3MDA2MTk0","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"1139e97b3978f3b726101993642347ef","Raw":{"client_id":"mvcclient","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code id_token","scope":"openid","response_mode":"form_post","nonce":"636907524923731377.NWQwNjRmZDEtOWZiZS00MzY4LTgwMTAtOTY0ZTEwYjZkYWJhODMwN2UwMzQtZjFhYi00M2JhLTkxNWUtNjIwMGY3MDA2MTk0","state":"CfDJ8EOLUvFYI8tGpPfBiOKhoEhLF8COhmVXsRRTMhOpDwg5zLJq344UdWPPdE7tPQL9o5RgGsGgTea3dytRjloh6bd7cDDOUFcvtbL7fHcFkplN3V5GgviWrGdD94FV9RFsL_NnStAUZmOUveaW0svLMzgTdF2FWhy7B3RKQpwQbeFFD-MYcpt-fegjMrrBwuni2Kya0OF-BpXSGqOUh5TlGnrbmnQ4E6X6miQh2QVw2BdSmPlcqx7X--m2Ui42_Aaj_SaLzm4J5nwwjDRWwIiQY-6hQYOwwMiINQZR8vHxfoiJ0IHoH9R8JtPK8k5nMDl3Eg","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.3.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-13 19:41:52.179 +08:00 [DBG] user_consent grant with value: mvcclient|3437ed6f-657d-4533-a203-67afd0b619fb not found in store.
+2019-04-13 19:41:52.180 +08:00 [DBG] Found no prior consent from consent store, consent is required
+2019-04-13 19:41:52.186 +08:00 [INF] User consented to scopes: ["openid"]
+2019-04-13 19:41:52.190 +08:00 [DBG] Client allows remembering consent, and no scopes provided. Removing consent from consent store for subject: 3437ed6f-657d-4533-a203-67afd0b619fb
+2019-04-13 19:41:52.207 +08:00 [DBG] Creating Hybrid Flow response.
+2019-04-13 19:41:52.252 +08:00 [DBG] Creating Implicit Flow response.
+2019-04-13 19:41:52.266 +08:00 [DBG] Getting claims for identity token for subject: 3437ed6f-657d-4533-a203-67afd0b619fb and client: mvcclient
+2019-04-13 19:41:52.270 +08:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2019-04-13 19:41:52.444 +08:00 [INF] {"ClientId":"mvcclient","ClientName":"MVC 客户端","RedirectUri":"https://localhost:7001/signin-oidc","Endpoint":"Authorize","SubjectId":"3437ed6f-657d-4533-a203-67afd0b619fb","Scopes":"openid","GrantType":"hybrid","Tokens":[{"TokenType":"id_token","TokenValue":"****4qpA","$type":"Token"},{"TokenType":"code","TokenValue":"****db19","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLM00JSC9VO4:00000002","TimeStamp":"2019-04-13T11:41:52.0000000Z","ProcessId":8584,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-04-13 19:41:52.449 +08:00 [INF] Authorize endpoint response
+{"SubjectId":"3437ed6f-657d-4533-a203-67afd0b619fb","ClientId":"mvcclient","RedirectUri":"https://localhost:7001/signin-oidc","State":"CfDJ8EOLUvFYI8tGpPfBiOKhoEhLF8COhmVXsRRTMhOpDwg5zLJq344UdWPPdE7tPQL9o5RgGsGgTea3dytRjloh6bd7cDDOUFcvtbL7fHcFkplN3V5GgviWrGdD94FV9RFsL_NnStAUZmOUveaW0svLMzgTdF2FWhy7B3RKQpwQbeFFD-MYcpt-fegjMrrBwuni2Kya0OF-BpXSGqOUh5TlGnrbmnQ4E6X6miQh2QVw2BdSmPlcqx7X--m2Ui42_Aaj_SaLzm4J5nwwjDRWwIiQY-6hQYOwwMiINQZR8vHxfoiJ0IHoH9R8JtPK8k5nMDl3Eg","Scope":"openid","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2019-04-13 19:41:52.479 +08:00 [DBG] Augmenting SignInContext
+2019-04-13 19:41:52.489 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2019-04-13 19:41:52.654 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-04-13 19:41:52.664 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-04-13 19:41:52.664 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-04-13 19:41:52.676 +08:00 [DBG] Start token request.
+2019-04-13 19:41:52.686 +08:00 [DBG] Start client validation
+2019-04-13 19:41:52.694 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-04-13 19:41:52.700 +08:00 [DBG] Start parsing for secret in post body
+2019-04-13 19:41:52.701 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-04-13 19:41:52.701 +08:00 [DBG] Secret id found: mvcclient
+2019-04-13 19:41:52.701 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 19:41:52.718 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-04-13 19:41:52.718 +08:00 [DBG] Client validation success
+2019-04-13 19:41:52.719 +08:00 [INF] {"ClientId":"mvcclient","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLM00JSC9VNU:00000003","TimeStamp":"2019-04-13T11:41:52.0000000Z","ProcessId":8584,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-04-13 19:41:52.735 +08:00 [DBG] Start token request validation
+2019-04-13 19:41:52.745 +08:00 [DBG] Start validation of authorization code token request
+2019-04-13 19:41:52.757 +08:00 [DBG] Validation of authorization code token request success
+2019-04-13 19:41:52.761 +08:00 [INF] Token request validation success
+{"ClientId":"mvcclient","ClientName":"MVC 客户端","GrantType":"authorization_code","Scopes":null,"AuthorizationCode":"0404e77a2d0e5c942a7cca7247da7ce6482662c597409d7f7a781672795cdb19","RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"client_id":"mvcclient","client_secret":"***REDACTED***","code":"0404e77a2d0e5c942a7cca7247da7ce6482662c597409d7f7a781672795cdb19","grant_type":"authorization_code","redirect_uri":"https://localhost:7001/signin-oidc"},"$type":"TokenRequestValidationLog"}
+2019-04-13 19:41:52.778 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 19:41:52.789 +08:00 [DBG] Getting claims for access token for client: mvcclient
+2019-04-13 19:41:52.790 +08:00 [DBG] Getting claims for access token for subject: 3437ed6f-657d-4533-a203-67afd0b619fb
+2019-04-13 19:41:52.814 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 19:41:52.814 +08:00 [DBG] Getting claims for identity token for subject: 3437ed6f-657d-4533-a203-67afd0b619fb and client: mvcclient
+2019-04-13 19:41:52.814 +08:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2019-04-13 19:41:52.819 +08:00 [INF] {"ClientId":"mvcclient","ClientName":"MVC 客户端","RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":"openid","GrantType":"authorization_code","Tokens":[{"TokenType":"id_token","TokenValue":"****yuxw","$type":"Token"},{"TokenType":"access_token","TokenValue":"****g8Mw","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLM00JSC9VNU:00000003","TimeStamp":"2019-04-13T11:41:52.0000000Z","ProcessId":8584,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-04-13 19:41:52.823 +08:00 [DBG] Token request success.
+2019-04-13 19:41:52.841 +08:00 [DBG] Request path /connect/userinfo matched to endpoint type Userinfo
+2019-04-13 19:41:52.845 +08:00 [DBG] Endpoint enabled: Userinfo, successfully created handler: IdentityServer4.Endpoints.UserInfoEndpoint
+2019-04-13 19:41:52.845 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo
+2019-04-13 19:41:52.855 +08:00 [DBG] Start userinfo request
+2019-04-13 19:41:52.861 +08:00 [DBG] Bearer token found in header
+2019-04-13 19:41:52.888 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 19:41:52.893 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 19:41:52.898 +08:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2019-04-13 19:41:52.900 +08:00 [DBG] Token validation success
+{"ClientId":null,"ClientName":null,"ValidateLifetime":true,"AccessTokenType":"Jwt","ExpectedScope":"openid","TokenHandle":null,"JwtId":null,"Claims":{"nbf":1555155712,"exp":1555159312,"iss":"https://localhost:5001","aud":"https://localhost:5001/resources","client_id":"mvcclient","sub":"3437ed6f-657d-4533-a203-67afd0b619fb","auth_time":1555148722,"idp":"local","scope":"openid","amr":"pwd"},"$type":"TokenValidationLog"}
+2019-04-13 19:41:52.912 +08:00 [DBG] Creating userinfo response
+2019-04-13 19:41:52.916 +08:00 [DBG] Scopes in access token: openid
+2019-04-13 19:41:52.919 +08:00 [DBG] Scopes in access token: openid
+2019-04-13 19:41:52.921 +08:00 [DBG] Requested claim types: sub
+2019-04-13 19:41:52.922 +08:00 [DBG] Scopes in access token: openid
+2019-04-13 19:41:52.926 +08:00 [INF] Profile service returned the following claim types: sub
+2019-04-13 19:41:52.927 +08:00 [DBG] End userinfo request
+2019-04-13 19:52:31.626 +08:00 [INF] Starting IdentityServer4 version 2.4.0.0
+2019-04-13 19:52:31.716 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-13 19:52:31.728 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-04-13 19:52:31.729 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-04-13 19:52:31.730 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-04-13 19:52:31.731 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-04-13 19:52:31.733 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-04-13 19:52:31.733 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-04-13 19:53:48.342 +08:00 [INF] Starting IdentityServer4 version 2.4.0.0
+2019-04-13 19:53:48.431 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-13 19:53:48.445 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-04-13 19:53:48.446 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-04-13 19:53:48.447 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-04-13 19:53:48.447 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-04-13 19:53:48.449 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-04-13 19:53:48.449 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-04-13 19:56:12.640 +08:00 [INF] Starting IdentityServer4 version 2.4.0.0
+2019-04-13 19:56:12.762 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-13 19:56:12.783 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-04-13 19:56:12.784 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-04-13 19:56:12.785 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-04-13 19:56:12.786 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-04-13 19:56:12.787 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-04-13 19:56:12.788 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-04-13 19:56:47.487 +08:00 [INF] Starting IdentityServer4 version 2.4.0.0
+2019-04-13 19:56:47.554 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-13 19:56:47.568 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-04-13 19:56:47.569 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-04-13 19:56:47.572 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-04-13 19:56:47.574 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-04-13 19:56:47.576 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-04-13 19:56:47.579 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-04-13 20:12:45.450 +08:00 [INF] Starting IdentityServer4 version 2.4.0.0
+2019-04-13 20:12:45.557 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-13 20:12:45.570 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-04-13 20:12:45.571 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-04-13 20:12:45.571 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-04-13 20:12:45.571 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-04-13 20:12:45.571 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-04-13 20:12:45.571 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-04-13 20:13:25.214 +08:00 [DBG] Login Url: /Account/Login
+2019-04-13 20:13:25.217 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-13 20:13:25.217 +08:00 [DBG] Logout Url: /Account/Logout
+2019-04-13 20:13:25.217 +08:00 [DBG] ConsentUrl Url: /consent
+2019-04-13 20:13:25.218 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-13 20:13:25.218 +08:00 [DBG] Error Url: /home/error
+2019-04-13 20:13:25.218 +08:00 [DBG] Error Id Parameter: errorId
+2019-04-13 20:25:23.577 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-13 20:25:23.826 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-13 20:25:23.827 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-13 20:25:23.832 +08:00 [DBG] Start discovery request
+2019-04-13 20:25:24.024 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-13 20:25:24.025 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-13 20:25:24.026 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-13 20:25:24.031 +08:00 [DBG] Start key discovery request
+2019-04-13 20:44:25.719 +08:00 [INF] Starting IdentityServer4 version 2.4.0.0
+2019-04-13 20:44:25.786 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-13 20:44:25.796 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-04-13 20:44:25.796 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-04-13 20:44:25.797 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-04-13 20:44:25.797 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-04-13 20:44:25.797 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-04-13 20:44:25.798 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-04-13 20:46:28.349 +08:00 [DBG] Login Url: /Account/Login
+2019-04-13 20:46:28.352 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-13 20:46:28.352 +08:00 [DBG] Logout Url: /Account/Logout
+2019-04-13 20:46:28.352 +08:00 [DBG] ConsentUrl Url: /consent
+2019-04-13 20:46:28.352 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-13 20:46:28.353 +08:00 [DBG] Error Url: /home/error
+2019-04-13 20:46:28.353 +08:00 [DBG] Error Id Parameter: errorId
+2019-04-13 20:46:28.395 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-13 20:46:28.642 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-13 20:46:28.643 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-13 20:46:28.648 +08:00 [DBG] Start discovery request
+2019-04-13 20:46:28.874 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-13 20:46:28.879 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-13 20:46:28.882 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-13 20:46:28.887 +08:00 [DBG] Start key discovery request
+2019-04-13 20:46:28.971 +08:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-13 20:46:28.975 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-13 20:46:28.976 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-13 20:46:28.981 +08:00 [DBG] Start authorize request
+2019-04-13 20:46:28.995 +08:00 [DBG] No user present in authorize request
+2019-04-13 20:46:28.999 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 20:46:29.021 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 20:46:29.028 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 20:46:29.030 +08:00 [DBG] No PKCE used.
+2019-04-13 20:46:29.082 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 20:46:29.116 +08:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"mvcclient","ClientName":"MVC 客户端","RedirectUri":"https://localhost:7001/signin-oidc","AllowedRedirectUris":["https://localhost:7001/signin-oidc"],"SubjectId":"anonymous","ResponseType":"code id_token","ResponseMode":"form_post","GrantType":"hybrid","RequestedScopes":"openid profile email restapi","State":"CfDJ8EOLUvFYI8tGpPfBiOKhoEiVZ6VLCzYyFdDdsKi9qpQAXGO7YpYX9lqKkfZKXd4cAYby7RFAiUbM8Wr2dVL1gGJ5fjq8cO5ZnoiWKuVaJ1DZha3oUawCSWtSzxCCo2TuiOw07mNEWkI5i_Yr7nR7kZ1MLcgtdjYN04wnRYnqVfrldRIag3srUNVZQDytmj0XW_IsjBPn35ixCiCh1-QWYFOXRlGnLyAchKqugJ7e3rr2WKyu9whXkP3rmrOpdG-46g4wC61ltrTzM9Qqv5SlmbHiqJlHb8MuOlonNhjfF3I1bqiJc5z3KHHTjmIhBZRJVw","UiLocales":null,"Nonce":"636907563889203365.NjMxMTZlZjUtYjYwYy00ZTA0LTlkOTAtZGY4NTA5OWU3OTE5ZWQxOWVjYTgtOTI3Yy00ZjA5LWE0MzktZWMyMjRiNTFhNjMw","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvcclient","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code id_token","scope":"openid profile email restapi","response_mode":"form_post","nonce":"636907563889203365.NjMxMTZlZjUtYjYwYy00ZTA0LTlkOTAtZGY4NTA5OWU3OTE5ZWQxOWVjYTgtOTI3Yy00ZjA5LWE0MzktZWMyMjRiNTFhNjMw","state":"CfDJ8EOLUvFYI8tGpPfBiOKhoEiVZ6VLCzYyFdDdsKi9qpQAXGO7YpYX9lqKkfZKXd4cAYby7RFAiUbM8Wr2dVL1gGJ5fjq8cO5ZnoiWKuVaJ1DZha3oUawCSWtSzxCCo2TuiOw07mNEWkI5i_Yr7nR7kZ1MLcgtdjYN04wnRYnqVfrldRIag3srUNVZQDytmj0XW_IsjBPn35ixCiCh1-QWYFOXRlGnLyAchKqugJ7e3rr2WKyu9whXkP3rmrOpdG-46g4wC61ltrTzM9Qqv5SlmbHiqJlHb8MuOlonNhjfF3I1bqiJc5z3KHHTjmIhBZRJVw","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.3.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-13 20:46:29.141 +08:00 [INF] Showing login: User is not authenticated
+2019-04-13 20:46:29.351 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 20:46:29.352 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 20:46:29.353 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 20:46:29.353 +08:00 [DBG] No PKCE used.
+2019-04-13 20:46:29.354 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 20:46:29.366 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 20:46:40.478 +08:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-13 20:46:40.531 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 20:46:40.532 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 20:46:40.532 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 20:46:40.532 +08:00 [DBG] No PKCE used.
+2019-04-13 20:46:40.533 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 20:46:42.567 +08:00 [DBG] Augmenting SignInContext
+2019-04-13 20:46:42.570 +08:00 [DBG] Adding idp claim with value: local
+2019-04-13 20:46:42.570 +08:00 [DBG] Adding amr claim with value: pwd
+2019-04-13 20:46:42.571 +08:00 [DBG] Adding auth_time claim with value: 1555159602
+2019-04-13 20:46:42.583 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2019-04-13 20:46:42.612 +08:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"3437ed6f-657d-4533-a203-67afd0b619fb","DisplayName":"bob","Endpoint":"UI","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLM01O5TIK0P:00000001","TimeStamp":"2019-04-13T12:46:42.0000000Z","ProcessId":6856,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-04-13 20:46:42.617 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 20:46:42.662 +08:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-13 20:46:42.663 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-13 20:46:42.664 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-13 20:46:42.671 +08:00 [DBG] Start authorize callback request
+2019-04-13 20:46:42.678 +08:00 [DBG] User in authorize request: 3437ed6f-657d-4533-a203-67afd0b619fb
+2019-04-13 20:46:42.678 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 20:46:42.679 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 20:46:42.679 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 20:46:42.679 +08:00 [DBG] No PKCE used.
+2019-04-13 20:46:42.680 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 20:46:42.681 +08:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"mvcclient","ClientName":"MVC 客户端","RedirectUri":"https://localhost:7001/signin-oidc","AllowedRedirectUris":["https://localhost:7001/signin-oidc"],"SubjectId":"3437ed6f-657d-4533-a203-67afd0b619fb","ResponseType":"code id_token","ResponseMode":"form_post","GrantType":"hybrid","RequestedScopes":"openid profile email restapi","State":"CfDJ8EOLUvFYI8tGpPfBiOKhoEiVZ6VLCzYyFdDdsKi9qpQAXGO7YpYX9lqKkfZKXd4cAYby7RFAiUbM8Wr2dVL1gGJ5fjq8cO5ZnoiWKuVaJ1DZha3oUawCSWtSzxCCo2TuiOw07mNEWkI5i_Yr7nR7kZ1MLcgtdjYN04wnRYnqVfrldRIag3srUNVZQDytmj0XW_IsjBPn35ixCiCh1-QWYFOXRlGnLyAchKqugJ7e3rr2WKyu9whXkP3rmrOpdG-46g4wC61ltrTzM9Qqv5SlmbHiqJlHb8MuOlonNhjfF3I1bqiJc5z3KHHTjmIhBZRJVw","UiLocales":null,"Nonce":"636907563889203365.NjMxMTZlZjUtYjYwYy00ZTA0LTlkOTAtZGY4NTA5OWU3OTE5ZWQxOWVjYTgtOTI3Yy00ZjA5LWE0MzktZWMyMjRiNTFhNjMw","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"299489d366b16cbf521cddf48b9ba06f","Raw":{"client_id":"mvcclient","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code id_token","scope":"openid profile email restapi","response_mode":"form_post","nonce":"636907563889203365.NjMxMTZlZjUtYjYwYy00ZTA0LTlkOTAtZGY4NTA5OWU3OTE5ZWQxOWVjYTgtOTI3Yy00ZjA5LWE0MzktZWMyMjRiNTFhNjMw","state":"CfDJ8EOLUvFYI8tGpPfBiOKhoEiVZ6VLCzYyFdDdsKi9qpQAXGO7YpYX9lqKkfZKXd4cAYby7RFAiUbM8Wr2dVL1gGJ5fjq8cO5ZnoiWKuVaJ1DZha3oUawCSWtSzxCCo2TuiOw07mNEWkI5i_Yr7nR7kZ1MLcgtdjYN04wnRYnqVfrldRIag3srUNVZQDytmj0XW_IsjBPn35ixCiCh1-QWYFOXRlGnLyAchKqugJ7e3rr2WKyu9whXkP3rmrOpdG-46g4wC61ltrTzM9Qqv5SlmbHiqJlHb8MuOlonNhjfF3I1bqiJc5z3KHHTjmIhBZRJVw","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.3.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-13 20:46:42.770 +08:00 [DBG] user_consent grant with value: mvcclient|3437ed6f-657d-4533-a203-67afd0b619fb not found in store.
+2019-04-13 20:46:42.771 +08:00 [DBG] Found no prior consent from consent store, consent is required
+2019-04-13 20:46:42.771 +08:00 [INF] Showing consent: User has not yet consented
+2019-04-13 20:46:42.798 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 20:46:42.798 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 20:46:42.798 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 20:46:42.799 +08:00 [DBG] No PKCE used.
+2019-04-13 20:46:42.799 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 20:46:42.799 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 20:46:46.650 +08:00 [DBG] CORS request made for path: /consent from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-13 20:46:46.680 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 20:46:46.681 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 20:46:46.681 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 20:46:46.682 +08:00 [DBG] No PKCE used.
+2019-04-13 20:46:46.682 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 20:46:46.685 +08:00 [INF] {"SubjectId":"3437ed6f-657d-4533-a203-67afd0b619fb","ClientId":"mvcclient","RequestedScopes":["openid","profile","email","restapi"],"GrantedScopes":["openid","profile","email","restapi"],"ConsentRemembered":false,"Category":"Grants","Name":"Consent granted","EventType":"Information","Id":4000,"Message":null,"ActivityId":"0HLM01O5TIK0S:00000001","TimeStamp":"2019-04-13T12:46:46.0000000Z","ProcessId":6856,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"ConsentGrantedEvent"}
+2019-04-13 20:46:46.703 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 20:46:46.707 +08:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-13 20:46:46.708 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-13 20:46:46.708 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-13 20:46:46.709 +08:00 [DBG] Start authorize callback request
+2019-04-13 20:46:46.715 +08:00 [DBG] User in authorize request: 3437ed6f-657d-4533-a203-67afd0b619fb
+2019-04-13 20:46:46.715 +08:00 [DBG] Start authorize request protocol validation
+2019-04-13 20:46:46.715 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 20:46:46.716 +08:00 [DBG] Checking for PKCE parameters
+2019-04-13 20:46:46.716 +08:00 [DBG] No PKCE used.
+2019-04-13 20:46:46.716 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-13 20:46:46.717 +08:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"mvcclient","ClientName":"MVC 客户端","RedirectUri":"https://localhost:7001/signin-oidc","AllowedRedirectUris":["https://localhost:7001/signin-oidc"],"SubjectId":"3437ed6f-657d-4533-a203-67afd0b619fb","ResponseType":"code id_token","ResponseMode":"form_post","GrantType":"hybrid","RequestedScopes":"openid profile email restapi","State":"CfDJ8EOLUvFYI8tGpPfBiOKhoEiVZ6VLCzYyFdDdsKi9qpQAXGO7YpYX9lqKkfZKXd4cAYby7RFAiUbM8Wr2dVL1gGJ5fjq8cO5ZnoiWKuVaJ1DZha3oUawCSWtSzxCCo2TuiOw07mNEWkI5i_Yr7nR7kZ1MLcgtdjYN04wnRYnqVfrldRIag3srUNVZQDytmj0XW_IsjBPn35ixCiCh1-QWYFOXRlGnLyAchKqugJ7e3rr2WKyu9whXkP3rmrOpdG-46g4wC61ltrTzM9Qqv5SlmbHiqJlHb8MuOlonNhjfF3I1bqiJc5z3KHHTjmIhBZRJVw","UiLocales":null,"Nonce":"636907563889203365.NjMxMTZlZjUtYjYwYy00ZTA0LTlkOTAtZGY4NTA5OWU3OTE5ZWQxOWVjYTgtOTI3Yy00ZjA5LWE0MzktZWMyMjRiNTFhNjMw","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"299489d366b16cbf521cddf48b9ba06f","Raw":{"client_id":"mvcclient","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code id_token","scope":"openid profile email restapi","response_mode":"form_post","nonce":"636907563889203365.NjMxMTZlZjUtYjYwYy00ZTA0LTlkOTAtZGY4NTA5OWU3OTE5ZWQxOWVjYTgtOTI3Yy00ZjA5LWE0MzktZWMyMjRiNTFhNjMw","state":"CfDJ8EOLUvFYI8tGpPfBiOKhoEiVZ6VLCzYyFdDdsKi9qpQAXGO7YpYX9lqKkfZKXd4cAYby7RFAiUbM8Wr2dVL1gGJ5fjq8cO5ZnoiWKuVaJ1DZha3oUawCSWtSzxCCo2TuiOw07mNEWkI5i_Yr7nR7kZ1MLcgtdjYN04wnRYnqVfrldRIag3srUNVZQDytmj0XW_IsjBPn35ixCiCh1-QWYFOXRlGnLyAchKqugJ7e3rr2WKyu9whXkP3rmrOpdG-46g4wC61ltrTzM9Qqv5SlmbHiqJlHb8MuOlonNhjfF3I1bqiJc5z3KHHTjmIhBZRJVw","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.3.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-13 20:46:46.733 +08:00 [DBG] user_consent grant with value: mvcclient|3437ed6f-657d-4533-a203-67afd0b619fb not found in store.
+2019-04-13 20:46:46.733 +08:00 [DBG] Found no prior consent from consent store, consent is required
+2019-04-13 20:46:46.745 +08:00 [INF] User consented to scopes: ["openid","profile","email","restapi"]
+2019-04-13 20:46:46.750 +08:00 [DBG] Client allows remembering consent, and no scopes provided. Removing consent from consent store for subject: 3437ed6f-657d-4533-a203-67afd0b619fb
+2019-04-13 20:46:46.770 +08:00 [DBG] Creating Hybrid Flow response.
+2019-04-13 20:46:46.819 +08:00 [DBG] Creating Implicit Flow response.
+2019-04-13 20:46:46.835 +08:00 [DBG] Getting claims for identity token for subject: 3437ed6f-657d-4533-a203-67afd0b619fb and client: mvcclient
+2019-04-13 20:46:46.839 +08:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2019-04-13 20:46:46.896 +08:00 [INF] {"ClientId":"mvcclient","ClientName":"MVC 客户端","RedirectUri":"https://localhost:7001/signin-oidc","Endpoint":"Authorize","SubjectId":"3437ed6f-657d-4533-a203-67afd0b619fb","Scopes":"openid profile email restapi","GrantType":"hybrid","Tokens":[{"TokenType":"id_token","TokenValue":"****A5uA","$type":"Token"},{"TokenType":"code","TokenValue":"****0d42","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLM01O5TIK0S:00000002","TimeStamp":"2019-04-13T12:46:46.0000000Z","ProcessId":6856,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-04-13 20:46:46.899 +08:00 [INF] Authorize endpoint response
+{"SubjectId":"3437ed6f-657d-4533-a203-67afd0b619fb","ClientId":"mvcclient","RedirectUri":"https://localhost:7001/signin-oidc","State":"CfDJ8EOLUvFYI8tGpPfBiOKhoEiVZ6VLCzYyFdDdsKi9qpQAXGO7YpYX9lqKkfZKXd4cAYby7RFAiUbM8Wr2dVL1gGJ5fjq8cO5ZnoiWKuVaJ1DZha3oUawCSWtSzxCCo2TuiOw07mNEWkI5i_Yr7nR7kZ1MLcgtdjYN04wnRYnqVfrldRIag3srUNVZQDytmj0XW_IsjBPn35ixCiCh1-QWYFOXRlGnLyAchKqugJ7e3rr2WKyu9whXkP3rmrOpdG-46g4wC61ltrTzM9Qqv5SlmbHiqJlHb8MuOlonNhjfF3I1bqiJc5z3KHHTjmIhBZRJVw","Scope":"openid profile email restapi","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2019-04-13 20:46:46.919 +08:00 [DBG] Augmenting SignInContext
+2019-04-13 20:46:46.919 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2019-04-13 20:46:47.155 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-04-13 20:46:47.162 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-04-13 20:46:47.163 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-04-13 20:46:47.170 +08:00 [DBG] Start token request.
+2019-04-13 20:46:47.177 +08:00 [DBG] Start client validation
+2019-04-13 20:46:47.183 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-04-13 20:46:47.188 +08:00 [DBG] Start parsing for secret in post body
+2019-04-13 20:46:47.189 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-04-13 20:46:47.189 +08:00 [DBG] Secret id found: mvcclient
+2019-04-13 20:46:47.189 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 20:46:47.202 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-04-13 20:46:47.202 +08:00 [DBG] Client validation success
+2019-04-13 20:46:47.203 +08:00 [INF] {"ClientId":"mvcclient","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLM01O5TIK0J:00000003","TimeStamp":"2019-04-13T12:46:47.0000000Z","ProcessId":6856,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-04-13 20:46:47.214 +08:00 [DBG] Start token request validation
+2019-04-13 20:46:47.232 +08:00 [DBG] Start validation of authorization code token request
+2019-04-13 20:46:47.252 +08:00 [DBG] Validation of authorization code token request success
+2019-04-13 20:46:47.257 +08:00 [INF] Token request validation success
+{"ClientId":"mvcclient","ClientName":"MVC 客户端","GrantType":"authorization_code","Scopes":null,"AuthorizationCode":"7d9ca70dda960fb734f6016d9d50ab86365948c1fe5162ac6ee5437732130d42","RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"client_id":"mvcclient","client_secret":"***REDACTED***","code":"7d9ca70dda960fb734f6016d9d50ab86365948c1fe5162ac6ee5437732130d42","grant_type":"authorization_code","redirect_uri":"https://localhost:7001/signin-oidc"},"$type":"TokenRequestValidationLog"}
+2019-04-13 20:46:47.287 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 20:46:47.303 +08:00 [DBG] Getting claims for access token for client: mvcclient
+2019-04-13 20:46:47.303 +08:00 [DBG] Getting claims for access token for subject: 3437ed6f-657d-4533-a203-67afd0b619fb
+2019-04-13 20:46:47.340 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 20:46:47.341 +08:00 [DBG] Getting claims for identity token for subject: 3437ed6f-657d-4533-a203-67afd0b619fb and client: mvcclient
+2019-04-13 20:46:47.341 +08:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2019-04-13 20:46:47.349 +08:00 [INF] {"ClientId":"mvcclient","ClientName":"MVC 客户端","RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":"openid profile email restapi","GrantType":"authorization_code","Tokens":[{"TokenType":"id_token","TokenValue":"****vvpw","$type":"Token"},{"TokenType":"access_token","TokenValue":"****d1SQ","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLM01O5TIK0J:00000003","TimeStamp":"2019-04-13T12:46:47.0000000Z","ProcessId":6856,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-04-13 20:46:47.353 +08:00 [DBG] Token request success.
+2019-04-13 20:46:47.375 +08:00 [DBG] Request path /connect/userinfo matched to endpoint type Userinfo
+2019-04-13 20:46:47.378 +08:00 [DBG] Endpoint enabled: Userinfo, successfully created handler: IdentityServer4.Endpoints.UserInfoEndpoint
+2019-04-13 20:46:47.379 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo
+2019-04-13 20:46:47.387 +08:00 [DBG] Start userinfo request
+2019-04-13 20:46:47.394 +08:00 [DBG] Bearer token found in header
+2019-04-13 20:46:47.424 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 20:46:47.431 +08:00 [DBG] client configuration validation for client mvcclient succeeded.
+2019-04-13 20:46:47.439 +08:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2019-04-13 20:46:47.441 +08:00 [DBG] Token validation success
+{"ClientId":null,"ClientName":null,"ValidateLifetime":true,"AccessTokenType":"Jwt","ExpectedScope":"openid","TokenHandle":null,"JwtId":null,"Claims":{"nbf":1555159607,"exp":1555163207,"iss":"https://localhost:5001","aud":["https://localhost:5001/resources","restapi"],"client_id":"mvcclient","sub":"3437ed6f-657d-4533-a203-67afd0b619fb","auth_time":1555159602,"idp":"local","scope":["openid","profile","email","restapi"],"amr":"pwd"},"$type":"TokenValidationLog"}
+2019-04-13 20:46:47.457 +08:00 [DBG] Creating userinfo response
+2019-04-13 20:46:47.464 +08:00 [DBG] Scopes in access token: openid profile email restapi
+2019-04-13 20:46:47.469 +08:00 [DBG] Scopes in access token: openid profile email restapi
+2019-04-13 20:46:47.474 +08:00 [DBG] Requested claim types: sub name family_name given_name middle_name nickname preferred_username profile picture website gender birthdate zoneinfo locale updated_at email email_verified
+2019-04-13 20:46:47.475 +08:00 [DBG] Scopes in access token: openid profile email restapi
+2019-04-13 20:46:47.486 +08:00 [INF] Profile service returned the following claim types: sub preferred_username name
+2019-04-13 20:46:47.487 +08:00 [DBG] End userinfo request
+2019-04-13 20:47:18.063 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-13 20:47:18.064 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-13 20:47:18.068 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-13 20:47:18.071 +08:00 [DBG] Start discovery request
+2019-04-13 20:47:18.184 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-13 20:47:18.185 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-13 20:47:18.185 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-13 20:47:18.186 +08:00 [DBG] Start key discovery request

@@ -1,0 +1,30 @@
+<mat-drawer-container class="app-sidenav-container" autosize>
+  <mat-drawer
+    #drawer
+    class="app-sidenav mat-elevation-z10"
+    [mode]="isScreenSmall() ? 'over' : 'side'"
+    [opened]="!isScreenSmall()"
+  >
+    <mat-toolbar color="primary">
+      Blog Demo
+    </mat-toolbar>
+
+    <mat-nav-list>
+      <mat-list-item role="listitem" routerLink="/blog/post-list"
+        >post list</mat-list-item
+      >
+    </mat-nav-list>
+    <mat-nav-list>
+      <mat-list-item role="post-table" routerLink="/blog/post-table"
+        >post table</mat-list-item
+      >
+    </mat-nav-list>
+  </mat-drawer>
+
+  <div class="app-sidenav-content">
+    <app-toolbar (toggleSidenav)="drawer.toggle()"></app-toolbar>
+    <div class="wrapper">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</mat-drawer-container>

@@ -1,0 +1,17 @@
+每个表对应：一个实体+一个Dto（负责展示）+一个控制器+一个repository（持久化操作）
+	+一个parameter类（负责接收该实体的参数，好像类似viewmodel）+一个validator（负责检查）
+	+PropertyMapping（负责属性映射，大佬的排序框架，和全局dto与entity映射关系不一样，全局的是automapper用的，这个是排序框架用的）
+
+控制器只能返回对应的dto如果还要返回其他的数据则附加到head里面
+
+附加方式：
+Response.Headers.Add("x-Pagination", JsonConvert.SerializeObject(meta, new JsonSerializerSettings {
+                //负责把以大写开头的属性名在返回时变成小写
+                ContractResolver = new CamelCasePropertyNamesContractResolver()
+            }));
+
+
+
+全局：一个log+一个dto与entity映射关系+多个startup+一个错误检查器（可以自己写也可以用自带的）+一个program
++一个抽象parameter父类+一个x-Pagination（负责存储查询出来的数据，使用泛型保证只需要一个，继承于list）
++多个dbcontext+一个UnitOfWork+多个迁移文件+一个排序框架

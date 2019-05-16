@@ -1,0 +1,9 @@
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Core\bin\Debug\netcoreapp2.2\BlogDemo.Core.deps.json
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Core\bin\Debug\netcoreapp2.2\BlogDemo.Core.dll
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Core\bin\Debug\netcoreapp2.2\BlogDemo.Core.pdb
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Core\obj\Debug\netcoreapp2.2\BlogDemo.Core.csproj.CoreCompileInputs.cache
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Core\obj\Debug\netcoreapp2.2\BlogDemo.Core.AssemblyInfoInputs.cache
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Core\obj\Debug\netcoreapp2.2\BlogDemo.Core.AssemblyInfo.cs
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Core\obj\Debug\netcoreapp2.2\BlogDemo.Core.dll
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Core\obj\Debug\netcoreapp2.2\BlogDemo.Core.pdb
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Core\obj\Debug\netcoreapp2.2\BlogDemo.Core.csprojAssemblyReference.cache

@@ -1,0 +1,14 @@
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Infrastructure\bin\Debug\netcoreapp2.2\BlogDemo.Infrastructure.deps.json
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Infrastructure\bin\Debug\netcoreapp2.2\BlogDemo.Infrastructure.dll
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Infrastructure\bin\Debug\netcoreapp2.2\BlogDemo.Infrastructure.pdb
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Infrastructure\bin\Debug\netcoreapp2.2\BlogDemo.Core.dll
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Infrastructure\bin\Debug\netcoreapp2.2\BlogDemo.Core.pdb
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Infrastructure\obj\Debug\netcoreapp2.2\BlogDemo.Infrastructure.csprojAssemblyReference.cache
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Infrastructure\obj\Debug\netcoreapp2.2\BlogDemo.Infrastructure.csproj.CoreCompileInputs.cache
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Infrastructure\obj\Debug\netcoreapp2.2\BlogDemo.Infrastructure.AssemblyInfoInputs.cache
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Infrastructure\obj\Debug\netcoreapp2.2\BlogDemo.Infrastructure.AssemblyInfo.cs
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Infrastructure\obj\Debug\netcoreapp2.2\BlogDemo.Infrastructure.csproj.CopyComplete
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Infrastructure\obj\Debug\netcoreapp2.2\BlogDemo.Infrastructure.dll
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Infrastructure\obj\Debug\netcoreapp2.2\BlogDemo.Infrastructure.pdb
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Infrastructure\bin\Debug\netcoreapp2.2\BlogDemo.Infrastructure.runtimeconfig.json
+E:\SandTablePriject\BlogDemo.API\BlogDemo\BlogDemo.Infrastructure\bin\Debug\netcoreapp2.2\BlogDemo.Infrastructure.runtimeconfig.dev.json

@@ -1,0 +1,1123 @@
+2019-04-19 10:24:36.234 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 10:24:38.465 +08:00 [INF] Executed DbCommand (1,247ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+2019-04-19 10:24:38.916 +08:00 [INF] User profile is available. Using 'C:\Users\zyz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-19 10:30:37.064 +08:00 [INF] CORS policy execution successful.
+2019-04-19 10:30:37.078 +08:00 [INF] CORS policy execution successful.
+2019-04-19 10:30:37.486 +08:00 [INF] Successfully validated the token.
+2019-04-19 10:30:37.492 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2019-04-19 10:30:37.665 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 10:30:37.669 +08:00 [INF] CORS policy execution successful.
+2019-04-19 10:30:37.680 +08:00 [INF] Authorization was successful.
+2019-04-19 10:30:38.010 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 10:30:38.021 +08:00 [INF] 测试日志
+2019-04-19 10:30:38.050 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 10:30:38.387 +08:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 10:30:38.503 +08:00 [INF] Executed DbCommand (8ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 10:30:38.751 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 730.2704ms.
+2019-04-19 10:30:38.766 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 10:30:38.803 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 1132.6518ms
+2019-04-19 10:46:00.144 +08:00 [INF] CORS policy execution successful.
+2019-04-19 10:46:00.175 +08:00 [INF] CORS policy execution successful.
+2019-04-19 10:46:00.192 +08:00 [INF] Successfully validated the token.
+2019-04-19 10:46:00.194 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2019-04-19 10:46:00.197 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 10:46:00.199 +08:00 [INF] CORS policy execution successful.
+2019-04-19 10:46:00.201 +08:00 [INF] Authorization was successful.
+2019-04-19 10:46:00.213 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 10:46:00.233 +08:00 [INF] 测试日志
+2019-04-19 10:46:00.245 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 10:46:00.302 +08:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 10:46:00.314 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 10:46:00.324 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 91.5476ms.
+2019-04-19 10:46:00.326 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 10:46:00.333 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 134.3372ms
+2019-04-19 11:01:22.484 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:01:22.503 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:01:22.516 +08:00 [INF] Successfully validated the token.
+2019-04-19 11:01:22.517 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2019-04-19 11:01:22.522 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 11:01:22.525 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:01:22.527 +08:00 [INF] Authorization was successful.
+2019-04-19 11:01:22.534 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 11:01:22.536 +08:00 [INF] 测试日志
+2019-04-19 11:01:22.542 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 11:01:22.567 +08:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 11:01:22.576 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 11:01:22.584 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 48.6058ms.
+2019-04-19 11:01:22.585 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 11:01:22.590 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 64.695000000000007ms
+2019-04-19 11:02:11.176 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:02:11.189 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:02:11.208 +08:00 [INF] Successfully validated the token.
+2019-04-19 11:02:11.208 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2019-04-19 11:02:11.209 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 11:02:11.211 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:02:11.217 +08:00 [INF] Authorization was successful.
+2019-04-19 11:02:11.219 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 11:02:11.220 +08:00 [INF] 测试日志
+2019-04-19 11:02:11.221 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 11:02:11.225 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 11:02:11.230 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 11:02:11.239 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 18.9235ms.
+2019-04-19 11:02:11.241 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 11:02:11.245 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 33.601600000000005ms
+2019-04-19 11:04:47.845 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 11:04:48.253 +08:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+2019-04-19 11:04:48.407 +08:00 [INF] User profile is available. Using 'C:\Users\zyz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-19 11:05:01.303 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:05:01.332 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:05:01.636 +08:00 [INF] Successfully validated the token.
+2019-04-19 11:05:01.644 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2019-04-19 11:05:01.771 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 11:05:01.776 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:05:02.094 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 11:05:02.108 +08:00 [INF] 测试日志
+2019-04-19 11:05:02.127 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 11:05:02.435 +08:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 11:05:02.537 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 11:05:02.632 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 526.9949ms.
+2019-04-19 11:05:02.647 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 11:05:02.683 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 907.39240000000007ms
+2019-04-19 11:08:10.231 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:08:10.254 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:08:10.262 +08:00 [INF] Successfully validated the token.
+2019-04-19 11:08:10.266 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2019-04-19 11:08:10.269 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 11:08:10.271 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:08:10.277 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 11:08:10.300 +08:00 [INF] 测试日志
+2019-04-19 11:08:10.306 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 11:08:10.341 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 11:08:10.353 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 11:08:10.388 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 87.5622ms.
+2019-04-19 11:08:10.389 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 11:08:10.396 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 125.3627ms
+2019-04-19 11:08:36.744 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:08:36.817 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:08:36.819 +08:00 [INF] Successfully validated the token.
+2019-04-19 11:08:36.821 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2019-04-19 11:08:36.824 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 11:08:36.826 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:08:36.831 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 11:08:36.833 +08:00 [INF] 测试日志
+2019-04-19 11:08:36.834 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 11:08:36.838 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 11:08:36.846 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 11:08:36.848 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 15.5767ms.
+2019-04-19 11:08:36.850 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 11:08:36.852 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 26.248900000000003ms
+2019-04-19 11:09:32.984 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 11:09:33.404 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+2019-04-19 11:09:33.550 +08:00 [INF] User profile is available. Using 'C:\Users\zyz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-19 11:09:54.379 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:09:54.398 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:09:54.734 +08:00 [INF] Successfully validated the token.
+2019-04-19 11:09:54.741 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2019-04-19 11:09:54.861 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 11:09:54.866 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:09:54.879 +08:00 [INF] Authorization was successful.
+2019-04-19 11:09:55.297 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 11:09:55.311 +08:00 [INF] 测试日志
+2019-04-19 11:09:55.327 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 11:09:55.648 +08:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 11:09:55.801 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 11:09:55.892 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 583.8333ms.
+2019-04-19 11:09:55.905 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 11:09:55.940 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 1072.7206ms
+2019-04-19 11:12:22.056 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:12:22.339 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:12:22.347 +08:00 [INF] Successfully validated the token.
+2019-04-19 11:12:22.348 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2019-04-19 11:12:22.352 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 11:12:22.353 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:12:22.355 +08:00 [INF] Authorization was successful.
+2019-04-19 11:12:22.365 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 11:12:22.378 +08:00 [INF] 测试日志
+2019-04-19 11:12:22.381 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 11:12:22.400 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 11:12:22.405 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 11:12:22.412 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 33.681000000000004ms.
+2019-04-19 11:12:22.415 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 11:12:22.419 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 66.481400000000008ms
+2019-04-19 11:14:32.057 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:14:32.087 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:14:32.090 +08:00 [INF] Successfully validated the token.
+2019-04-19 11:14:32.091 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2019-04-19 11:14:32.093 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 11:14:32.097 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:14:32.098 +08:00 [INF] Authorization was successful.
+2019-04-19 11:14:32.099 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 11:14:32.100 +08:00 [INF] 测试日志
+2019-04-19 11:14:32.101 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 11:14:32.106 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 11:14:32.113 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 11:14:32.118 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 17.942600000000002ms.
+2019-04-19 11:14:32.120 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 11:14:32.122 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 25.191200000000002ms
+2019-04-19 11:15:11.817 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 11:15:12.216 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+2019-04-19 11:15:12.372 +08:00 [INF] User profile is available. Using 'C:\Users\zyz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-19 11:15:33.111 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:15:33.122 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:15:33.434 +08:00 [INF] Successfully validated the token.
+2019-04-19 11:15:33.442 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2019-04-19 11:15:33.581 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 11:15:33.585 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:15:33.594 +08:00 [INF] Authorization was successful.
+2019-04-19 11:15:33.926 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 11:15:33.937 +08:00 [INF] 测试日志
+2019-04-19 11:15:33.956 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 11:15:34.276 +08:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 11:15:34.403 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 11:15:34.489 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 552.9085ms.
+2019-04-19 11:15:34.504 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 11:15:34.538 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 952.0755ms
+2019-04-19 11:18:02.122 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:18:02.157 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-04-19 11:18:02.158 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 11:18:02.159 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:18:02.160 +08:00 [INF] Authorization failed.
+2019-04-19 11:18:02.165 +08:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-04-19 11:18:02.171 +08:00 [INF] Executing ChallengeResult with authentication schemes ([]).
+2019-04-19 11:18:02.185 +08:00 [INF] AuthenticationScheme: BearerIdentityServerAuthenticationJwt was challenged.
+2019-04-19 11:18:02.186 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-04-19 11:18:02.187 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 27.893700000000003ms
+2019-04-19 11:18:46.788 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:18:46.789 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-04-19 11:18:46.797 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 11:18:46.798 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:18:46.799 +08:00 [INF] Authorization failed.
+2019-04-19 11:18:46.799 +08:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-04-19 11:18:46.800 +08:00 [INF] Executing ChallengeResult with authentication schemes ([]).
+2019-04-19 11:18:46.801 +08:00 [INF] AuthenticationScheme: BearerIdentityServerAuthenticationJwt was challenged.
+2019-04-19 11:18:46.802 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-04-19 11:18:46.803 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 4.529ms
+2019-04-19 11:18:51.752 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:18:51.756 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-04-19 11:18:51.759 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 11:18:51.760 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:18:51.761 +08:00 [INF] Authorization failed.
+2019-04-19 11:18:51.762 +08:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-04-19 11:18:51.764 +08:00 [INF] Executing ChallengeResult with authentication schemes ([]).
+2019-04-19 11:18:51.766 +08:00 [INF] AuthenticationScheme: BearerIdentityServerAuthenticationJwt was challenged.
+2019-04-19 11:18:51.767 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-04-19 11:18:51.769 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 9.0756ms
+2019-04-19 11:19:21.491 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:19:21.539 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-04-19 11:19:21.547 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 11:19:21.553 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:19:21.554 +08:00 [INF] Authorization failed.
+2019-04-19 11:19:21.554 +08:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-04-19 11:19:21.555 +08:00 [INF] Executing ChallengeResult with authentication schemes ([]).
+2019-04-19 11:19:21.556 +08:00 [INF] AuthenticationScheme: BearerIdentityServerAuthenticationJwt was challenged.
+2019-04-19 11:19:21.557 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-04-19 11:19:21.558 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 5.3371ms
+2019-04-19 11:19:50.384 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:19:50.418 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-04-19 11:19:50.449 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 11:19:50.453 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:19:50.454 +08:00 [INF] Authorization failed.
+2019-04-19 11:19:50.454 +08:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-04-19 11:19:50.455 +08:00 [INF] Executing ChallengeResult with authentication schemes ([]).
+2019-04-19 11:19:50.456 +08:00 [INF] AuthenticationScheme: BearerIdentityServerAuthenticationJwt was challenged.
+2019-04-19 11:19:50.457 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-04-19 11:19:50.459 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 6.1747000000000005ms
+2019-04-19 11:20:09.534 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:20:09.538 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-04-19 11:20:09.547 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 11:20:09.562 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:20:09.563 +08:00 [INF] Authorization failed.
+2019-04-19 11:20:09.566 +08:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-04-19 11:20:09.567 +08:00 [INF] Executing ChallengeResult with authentication schemes ([]).
+2019-04-19 11:20:09.569 +08:00 [INF] AuthenticationScheme: BearerIdentityServerAuthenticationJwt was challenged.
+2019-04-19 11:20:09.569 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-04-19 11:20:09.579 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 15.996500000000001ms
+2019-04-19 11:20:17.123 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:20:17.157 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:20:17.184 +08:00 [INF] Successfully validated the token.
+2019-04-19 11:20:17.187 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2019-04-19 11:20:17.189 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 11:20:17.192 +08:00 [INF] CORS policy execution successful.
+2019-04-19 11:20:17.192 +08:00 [INF] Authorization was successful.
+2019-04-19 11:20:17.245 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 11:20:17.247 +08:00 [INF] 测试日志
+2019-04-19 11:20:17.252 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 11:20:17.280 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 11:20:17.284 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 11:20:17.294 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 47.0527ms.
+2019-04-19 11:20:17.295 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 11:20:17.301 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 109.17880000000001ms
+2019-04-19 12:09:19.884 +08:00 [INF] CORS policy execution successful.
+2019-04-19 12:09:19.916 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-04-19 12:09:19.926 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 12:09:19.928 +08:00 [INF] CORS policy execution successful.
+2019-04-19 12:09:19.931 +08:00 [INF] Authorization failed.
+2019-04-19 12:09:19.933 +08:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-04-19 12:09:19.935 +08:00 [INF] Executing ChallengeResult with authentication schemes ([]).
+2019-04-19 12:09:19.936 +08:00 [INF] AuthenticationScheme: BearerIdentityServerAuthenticationJwt was challenged.
+2019-04-19 12:09:19.937 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-04-19 12:09:19.938 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 10.228900000000001ms
+2019-04-19 15:42:14.506 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 15:42:14.977 +08:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+2019-04-19 15:42:15.109 +08:00 [INF] User profile is available. Using 'C:\Users\zyz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-19 15:43:57.908 +08:00 [INF] CORS policy execution successful.
+2019-04-19 15:43:57.944 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-04-19 15:43:58.138 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 15:43:58.143 +08:00 [INF] CORS policy execution successful.
+2019-04-19 15:43:58.159 +08:00 [INF] Authorization failed.
+2019-04-19 15:43:58.166 +08:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-04-19 15:43:58.173 +08:00 [INF] Executing ChallengeResult with authentication schemes ([]).
+2019-04-19 15:43:58.217 +08:00 [INF] AuthenticationScheme: BearerIdentityServerAuthenticationJwt was challenged.
+2019-04-19 15:43:58.221 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-04-19 15:43:58.224 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 81.5288ms
+2019-04-19 15:44:58.341 +08:00 [INF] CORS policy execution successful.
+2019-04-19 15:44:58.351 +08:00 [INF] CORS policy execution successful.
+2019-04-19 15:44:58.677 +08:00 [INF] Successfully validated the token.
+2019-04-19 15:44:58.683 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2019-04-19 15:44:58.686 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 15:44:58.715 +08:00 [INF] CORS policy execution successful.
+2019-04-19 15:44:58.716 +08:00 [INF] Authorization was successful.
+2019-04-19 15:44:59.068 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 15:44:59.079 +08:00 [INF] 测试日志
+2019-04-19 15:44:59.100 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 15:44:59.428 +08:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 15:44:59.565 +08:00 [INF] Executed DbCommand (23ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 15:44:59.654 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 578.00240000000008ms.
+2019-04-19 15:44:59.666 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 15:44:59.696 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 980.9949ms
+2019-04-19 15:45:26.207 +08:00 [INF] CORS policy execution successful.
+2019-04-19 15:45:26.303 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-04-19 15:45:26.309 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 15:45:26.310 +08:00 [INF] CORS policy execution successful.
+2019-04-19 15:45:26.312 +08:00 [INF] Authorization failed.
+2019-04-19 15:45:26.318 +08:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-04-19 15:45:26.324 +08:00 [INF] Executing ChallengeResult with authentication schemes ([]).
+2019-04-19 15:45:26.326 +08:00 [INF] AuthenticationScheme: BearerIdentityServerAuthenticationJwt was challenged.
+2019-04-19 15:45:26.327 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-04-19 15:45:26.328 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 17.5714ms
+2019-04-19 15:50:11.776 +08:00 [INF] CORS policy execution successful.
+2019-04-19 15:50:11.812 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-04-19 15:50:11.864 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 15:50:11.888 +08:00 [INF] CORS policy execution successful.
+2019-04-19 15:50:11.902 +08:00 [INF] Authorization failed.
+2019-04-19 15:50:11.904 +08:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-04-19 15:50:11.905 +08:00 [INF] Executing ChallengeResult with authentication schemes ([]).
+2019-04-19 15:50:11.906 +08:00 [INF] AuthenticationScheme: BearerIdentityServerAuthenticationJwt was challenged.
+2019-04-19 15:50:11.926 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-04-19 15:50:11.936 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 53.926ms
+2019-04-19 15:50:37.480 +08:00 [INF] CORS policy execution successful.
+2019-04-19 15:50:37.486 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-04-19 15:50:37.504 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 15:50:37.624 +08:00 [INF] CORS policy execution successful.
+2019-04-19 15:50:37.627 +08:00 [INF] Authorization failed.
+2019-04-19 15:50:37.646 +08:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-04-19 15:50:37.648 +08:00 [INF] Executing ChallengeResult with authentication schemes ([]).
+2019-04-19 15:50:37.653 +08:00 [INF] AuthenticationScheme: BearerIdentityServerAuthenticationJwt was challenged.
+2019-04-19 15:50:37.654 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-04-19 15:50:37.656 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 32.026900000000005ms
+2019-04-19 15:50:41.855 +08:00 [INF] CORS policy execution successful.
+2019-04-19 15:50:41.891 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-04-19 15:50:41.892 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 15:50:41.895 +08:00 [INF] CORS policy execution successful.
+2019-04-19 15:50:41.896 +08:00 [INF] Authorization failed.
+2019-04-19 15:50:41.897 +08:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-04-19 15:50:41.898 +08:00 [INF] Executing ChallengeResult with authentication schemes ([]).
+2019-04-19 15:50:41.902 +08:00 [INF] AuthenticationScheme: BearerIdentityServerAuthenticationJwt was challenged.
+2019-04-19 15:50:41.903 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-04-19 15:50:41.904 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 8.7347ms
+2019-04-19 15:50:58.289 +08:00 [INF] CORS policy execution successful.
+2019-04-19 15:50:58.340 +08:00 [INF] CORS policy execution successful.
+2019-04-19 15:50:58.349 +08:00 [INF] Successfully validated the token.
+2019-04-19 15:50:58.353 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2019-04-19 15:50:58.353 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 15:50:58.354 +08:00 [INF] CORS policy execution successful.
+2019-04-19 15:50:58.355 +08:00 [INF] Authorization was successful.
+2019-04-19 15:50:58.387 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 15:50:58.390 +08:00 [INF] 测试日志
+2019-04-19 15:50:58.397 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 15:50:58.467 +08:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 15:50:58.476 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 15:50:58.490 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 101.21780000000001ms.
+2019-04-19 15:50:58.495 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 15:50:58.511 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 156.9026ms
+2019-04-19 15:51:38.493 +08:00 [INF] CORS policy execution successful.
+2019-04-19 15:51:38.557 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-04-19 15:51:38.567 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 15:51:38.569 +08:00 [INF] CORS policy execution successful.
+2019-04-19 15:51:38.576 +08:00 [INF] Authorization failed.
+2019-04-19 15:51:38.588 +08:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-04-19 15:51:38.591 +08:00 [INF] Executing ChallengeResult with authentication schemes ([]).
+2019-04-19 15:51:38.596 +08:00 [INF] AuthenticationScheme: BearerIdentityServerAuthenticationJwt was challenged.
+2019-04-19 15:51:38.599 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-04-19 15:51:38.601 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 32.1267ms
+2019-04-19 16:04:37.068 +08:00 [INF] CORS policy execution successful.
+2019-04-19 16:04:37.078 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-04-19 16:52:32.852 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 16:52:33.620 +08:00 [INF] Executed DbCommand (253ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+2019-04-19 16:52:33.755 +08:00 [INF] User profile is available. Using 'C:\Users\zyz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-19 16:58:07.632 +08:00 [INF] CORS policy execution successful.
+2019-04-19 16:58:18.050 +08:00 [INF] CORS policy execution successful.
+2019-04-19 17:01:09.063 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 17:01:09.414 +08:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+2019-04-19 17:01:09.543 +08:00 [INF] User profile is available. Using 'C:\Users\zyz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-19 17:01:17.159 +08:00 [INF] CORS policy execution successful.
+2019-04-19 17:01:17.453 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 17:01:17.751 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 17:01:17.765 +08:00 [INF] 测试日志
+2019-04-19 17:01:17.784 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 17:01:18.076 +08:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 17:01:18.359 +08:00 [INF] Executed DbCommand (147ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 17:01:18.498 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 733.4288ms.
+2019-04-19 17:01:18.513 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 17:01:18.550 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 1090.9258ms
+2019-04-19 17:01:33.241 +08:00 [INF] CORS policy execution successful.
+2019-04-19 17:01:33.244 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 17:01:33.246 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 17:01:33.249 +08:00 [INF] 测试日志
+2019-04-19 17:01:33.250 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 17:01:33.262 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 17:01:33.266 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 17:01:33.269 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 20.206500000000002ms.
+2019-04-19 17:01:33.271 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 17:01:33.273 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 28.6187ms
+2019-04-19 17:04:36.644 +08:00 [INF] CORS policy execution successful.
+2019-04-19 17:04:36.655 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 17:04:36.662 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 17:04:36.665 +08:00 [INF] 测试日志
+2019-04-19 17:04:36.671 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 17:04:36.692 +08:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 17:04:36.706 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 17:04:36.716 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 51.2171ms.
+2019-04-19 17:04:36.717 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 17:04:36.720 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 64.5526ms
+2019-04-19 17:04:38.481 +08:00 [INF] CORS policy execution successful.
+2019-04-19 17:04:38.482 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 17:04:38.484 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 17:04:38.485 +08:00 [INF] 测试日志
+2019-04-19 17:04:38.486 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 17:04:38.490 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 17:04:38.497 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 17:04:38.502 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 17.5582ms.
+2019-04-19 17:04:38.504 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 17:04:38.506 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 22.6948ms
+2019-04-19 17:04:51.445 +08:00 [INF] CORS policy execution successful.
+2019-04-19 17:04:51.446 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 17:04:51.448 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 17:04:51.449 +08:00 [INF] 测试日志
+2019-04-19 17:04:51.450 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 17:04:51.454 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 17:04:51.459 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 17:04:51.463 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 13.9695ms.
+2019-04-19 17:04:51.464 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 17:04:51.466 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 19.124000000000002ms
+2019-04-19 17:05:03.421 +08:00 [INF] CORS policy execution successful.
+2019-04-19 17:05:03.422 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 17:05:03.429 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 17:05:03.431 +08:00 [INF] 测试日志
+2019-04-19 17:05:03.432 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 17:05:03.447 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 17:05:03.472 +08:00 [WRN] Query: '(from Post <generated>_2 in DbSet<Post> select [<generated>_2]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+2019-04-19 17:05:03.508 +08:00 [INF] Executed DbCommand (22ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 17:05:03.519 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 88.2646ms.
+2019-04-19 17:05:03.547 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 17:05:03.551 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 127.41900000000001ms
+2019-04-19 17:05:33.431 +08:00 [INF] CORS policy execution successful.
+2019-04-19 17:05:33.432 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 17:05:33.434 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 17:05:33.439 +08:00 [INF] 测试日志
+2019-04-19 17:05:33.443 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 17:05:33.447 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 17:05:33.450 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 17:05:33.453 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 14.6317ms.
+2019-04-19 17:05:33.456 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 17:05:33.461 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 27.3519ms
+2019-04-19 17:05:39.068 +08:00 [INF] CORS policy execution successful.
+2019-04-19 17:05:39.069 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 17:05:39.072 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 17:05:39.098 +08:00 [INF] 测试日志
+2019-04-19 17:05:39.100 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 17:05:39.103 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 17:05:39.106 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 17:05:39.142 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 43.8652ms.
+2019-04-19 17:05:39.146 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 17:05:39.158 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 86.5776ms
+2019-04-19 17:26:06.864 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 17:26:07.259 +08:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+2019-04-19 17:26:07.561 +08:00 [INF] User profile is available. Using 'C:\Users\zyz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-19 17:26:20.205 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 17:26:20.545 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+2019-04-19 17:26:20.669 +08:00 [INF] User profile is available. Using 'C:\Users\zyz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-19 17:28:18.491 +08:00 [INF] CORS policy execution successful.
+2019-04-19 17:28:18.686 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 17:28:18.689 +08:00 [INF] CORS policy execution successful.
+2019-04-19 17:28:18.959 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 17:28:19.001 +08:00 [INF] 测试日志
+2019-04-19 17:28:19.021 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 17:28:19.311 +08:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 17:28:19.425 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 17:28:19.552 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 550.11250000000007ms.
+2019-04-19 17:28:19.566 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 17:28:19.604 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 912.956ms
+2019-04-19 17:31:11.410 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 17:31:11.754 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+2019-04-19 17:31:11.883 +08:00 [INF] User profile is available. Using 'C:\Users\zyz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-19 17:31:17.604 +08:00 [INF] CORS policy execution successful.
+2019-04-19 17:31:17.722 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 17:31:17.728 +08:00 [INF] CORS policy execution successful.
+2019-04-19 17:31:18.014 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 17:31:18.025 +08:00 [INF] 测试日志
+2019-04-19 17:31:18.039 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 17:31:18.268 +08:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 17:31:18.363 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 17:31:18.457 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 432.38550000000004ms.
+2019-04-19 17:31:18.471 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 17:31:18.513 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 784.88960000000009ms
+2019-04-19 19:24:43.317 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:24:43.792 +08:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+2019-04-19 19:24:43.921 +08:00 [INF] User profile is available. Using 'C:\Users\zyz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-19 19:30:13.307 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:30:13.592 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:30:13.602 +08:00 [INF] 测试日志
+2019-04-19 19:30:13.617 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:30:13.897 +08:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:30:14.218 +08:00 [INF] Executed DbCommand (209ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:30:14.458 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 850.0729ms.
+2019-04-19 19:30:14.490 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:30:14.648 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 1323.4821000000002ms
+2019-04-19 19:32:13.507 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:32:13.513 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:32:13.515 +08:00 [INF] 测试日志
+2019-04-19 19:32:13.516 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:32:13.532 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:32:13.542 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:32:13.553 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 37.8202ms.
+2019-04-19 19:32:13.556 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:32:13.558 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 47.9685ms
+2019-04-19 19:32:28.170 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:32:28.172 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:32:28.176 +08:00 [INF] 测试日志
+2019-04-19 19:32:28.177 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:32:28.181 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:32:28.185 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:32:28.189 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 12.857600000000001ms.
+2019-04-19 19:32:28.190 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:32:28.192 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 21.3064ms
+2019-04-19 19:32:51.234 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:32:51.236 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:32:51.237 +08:00 [INF] 测试日志
+2019-04-19 19:32:51.238 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:32:51.243 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:32:51.247 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:32:51.251 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 13.5607ms.
+2019-04-19 19:32:51.252 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:32:51.253 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 18.0941ms
+2019-04-19 19:33:08.125 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:33:08.127 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:33:08.128 +08:00 [INF] 测试日志
+2019-04-19 19:33:08.129 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:33:08.136 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:33:08.141 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:33:08.143 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 15.3472ms.
+2019-04-19 19:33:08.144 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:33:08.146 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 19.709400000000002ms
+2019-04-19 19:33:19.825 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:33:19.841 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:33:19.842 +08:00 [INF] 测试日志
+2019-04-19 19:33:19.843 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:33:19.857 +08:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:33:19.875 +08:00 [INF] Executed DbCommand (8ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:33:19.879 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 37.068000000000005ms.
+2019-04-19 19:33:19.882 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:33:19.885 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 45.0172ms
+2019-04-19 19:33:23.906 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:33:23.907 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:33:23.908 +08:00 [INF] 测试日志
+2019-04-19 19:33:23.909 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:33:23.913 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:33:23.916 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:33:23.920 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 11.0745ms.
+2019-04-19 19:33:23.922 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:33:23.923 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 16.3789ms
+2019-04-19 19:33:25.957 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:33:25.959 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:33:25.960 +08:00 [INF] 测试日志
+2019-04-19 19:33:25.961 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:33:25.968 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:33:25.974 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:33:25.977 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 16.4851ms.
+2019-04-19 19:33:25.979 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:33:25.980 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 21.777900000000002ms
+2019-04-19 19:37:04.261 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:37:04.265 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:37:04.266 +08:00 [INF] 测试日志
+2019-04-19 19:37:04.267 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:37:04.273 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:37:04.277 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:37:04.279 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 13.5556ms.
+2019-04-19 19:37:04.281 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:37:04.282 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 18.2844ms
+2019-04-19 19:37:43.905 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:37:43.906 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:37:43.908 +08:00 [INF] 测试日志
+2019-04-19 19:37:43.909 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:37:43.913 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:37:43.918 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:37:43.921 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 13.1311ms.
+2019-04-19 19:37:43.923 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:37:43.926 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 19.7376ms
+2019-04-19 19:37:52.575 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:37:52.580 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:37:52.582 +08:00 [INF] 测试日志
+2019-04-19 19:37:52.584 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:37:52.590 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:37:52.595 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:37:52.598 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 15.5464ms.
+2019-04-19 19:37:52.599 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:37:52.601 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 21.8005ms
+2019-04-19 19:38:00.101 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:38:00.103 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:38:00.104 +08:00 [INF] 测试日志
+2019-04-19 19:38:00.106 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:38:00.113 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:38:00.117 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:38:00.120 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 15.282300000000001ms.
+2019-04-19 19:38:00.121 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:38:00.124 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 21.6892ms
+2019-04-19 19:38:23.894 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:38:23.907 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:38:23.910 +08:00 [INF] 测试日志
+2019-04-19 19:38:23.916 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:38:23.942 +08:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:38:23.952 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:38:23.960 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 50.642ms.
+2019-04-19 19:38:23.962 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:38:23.971 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 71.643ms
+2019-04-19 19:48:25.525 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:48:25.534 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:48:25.536 +08:00 [INF] 测试日志
+2019-04-19 19:48:25.541 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:48:25.597 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:48:25.603 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:48:25.610 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 74.535800000000009ms.
+2019-04-19 19:48:25.613 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:48:25.617 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 88.9085ms
+2019-04-19 19:48:37.463 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:48:37.465 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:48:37.466 +08:00 [INF] 测试日志
+2019-04-19 19:48:37.467 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:48:37.471 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:48:37.475 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:48:37.478 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 11.8724ms.
+2019-04-19 19:48:37.479 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:48:37.481 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 17.3504ms
+2019-04-19 19:48:57.892 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:48:57.894 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:48:57.898 +08:00 [INF] 测试日志
+2019-04-19 19:48:57.900 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:48:57.906 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:48:57.910 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:48:57.913 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 14.533100000000001ms.
+2019-04-19 19:48:57.915 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:48:57.917 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 23.659100000000002ms
+2019-04-19 19:49:11.383 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:49:11.386 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:49:11.388 +08:00 [INF] 测试日志
+2019-04-19 19:49:11.390 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:49:11.394 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:49:11.398 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:49:11.405 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 17.4302ms.
+2019-04-19 19:49:11.407 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:49:11.409 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 23.8246ms
+2019-04-19 19:49:57.074 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:49:57.075 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:49:57.076 +08:00 [INF] 测试日志
+2019-04-19 19:49:57.077 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:49:57.085 +08:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:49:57.090 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:49:57.092 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 15.622800000000002ms.
+2019-04-19 19:49:57.093 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:49:57.098 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 23.354000000000003ms
+2019-04-19 19:50:25.989 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:50:25.991 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:50:25.994 +08:00 [INF] 测试日志
+2019-04-19 19:50:25.996 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:50:25.999 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:50:26.003 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:50:26.006 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 11.8703ms.
+2019-04-19 19:50:26.008 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:50:26.012 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 20.828100000000003ms
+2019-04-19 19:50:48.307 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:50:48.309 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:50:48.313 +08:00 [INF] 测试日志
+2019-04-19 19:50:48.314 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:50:48.319 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:50:48.323 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:50:48.326 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 12.899000000000001ms.
+2019-04-19 19:50:48.328 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:50:48.333 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 24.218ms
+2019-04-19 19:50:55.332 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:50:55.334 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:50:55.336 +08:00 [INF] 测试日志
+2019-04-19 19:50:55.342 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:50:55.346 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:50:55.349 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:50:55.352 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 16.2304ms.
+2019-04-19 19:50:55.353 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:50:55.355 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 21.3355ms
+2019-04-19 19:50:59.888 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:50:59.889 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:50:59.890 +08:00 [INF] 测试日志
+2019-04-19 19:50:59.891 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:50:59.896 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:50:59.900 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:50:59.902 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 11.9368ms.
+2019-04-19 19:50:59.903 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:50:59.905 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 16.656200000000002ms
+2019-04-19 19:51:25.863 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:51:25.865 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:51:25.866 +08:00 [INF] 测试日志
+2019-04-19 19:51:25.868 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:51:25.874 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:51:25.877 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:51:25.879 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 12.8247ms.
+2019-04-19 19:51:25.880 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:51:25.882 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 17.4485ms
+2019-04-19 19:51:57.556 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:51:57.559 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:51:57.560 +08:00 [INF] 测试日志
+2019-04-19 19:51:57.561 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:51:57.566 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:51:57.570 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:51:57.572 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 12.0068ms.
+2019-04-19 19:51:57.575 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:51:57.578 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 20.4505ms
+2019-04-19 19:52:16.137 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:52:16.140 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:52:16.141 +08:00 [INF] 测试日志
+2019-04-19 19:52:16.142 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:52:16.145 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:52:16.149 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:52:16.152 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 10.8757ms.
+2019-04-19 19:52:16.153 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:52:16.154 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 16.1186ms
+2019-04-19 19:52:32.410 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:52:32.426 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:52:32.427 +08:00 [INF] 测试日志
+2019-04-19 19:52:32.428 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:52:32.433 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:52:32.439 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:52:32.442 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 15.2657ms.
+2019-04-19 19:52:32.444 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:52:32.446 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 20.3652ms
+2019-04-19 19:52:37.548 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:52:37.551 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:52:37.554 +08:00 [INF] 测试日志
+2019-04-19 19:52:37.555 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:52:37.560 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:52:37.564 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:52:37.566 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 12.6677ms.
+2019-04-19 19:52:37.569 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:52:37.572 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 21.535600000000002ms
+2019-04-19 19:52:48.400 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:52:48.404 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:52:48.409 +08:00 [INF] 测试日志
+2019-04-19 19:52:48.410 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:52:48.414 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:52:48.423 +08:00 [INF] Executed DbCommand (7ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:52:48.426 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 17.3521ms.
+2019-04-19 19:52:48.427 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:52:48.430 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 26.7332ms
+2019-04-19 19:53:25.096 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:53:25.104 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:53:25.105 +08:00 [INF] 测试日志
+2019-04-19 19:53:25.106 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:53:25.110 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:53:25.121 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:53:25.138 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 33.391400000000004ms.
+2019-04-19 19:53:25.157 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:53:25.172 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 72.364ms
+2019-04-19 19:53:41.396 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:53:41.400 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:53:41.403 +08:00 [INF] 测试日志
+2019-04-19 19:53:41.404 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:53:41.408 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:53:41.417 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:53:41.420 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 17.422900000000002ms.
+2019-04-19 19:53:41.422 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:53:41.424 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 24.890900000000002ms
+2019-04-19 19:54:17.925 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:54:17.927 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:54:17.932 +08:00 [INF] 测试日志
+2019-04-19 19:54:17.933 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:54:17.938 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:54:17.942 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:54:17.944 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 12.1271ms.
+2019-04-19 19:54:17.953 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:54:17.955 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 28.0969ms
+2019-04-19 19:59:55.054 +08:00 [INF] Route matched with {action = "Get", controller = "Posts"}. Executing action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API)
+2019-04-19 19:59:55.070 +08:00 [INF] Executing action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) with arguments (["BlogDemo.Core.Entites.QueryParameters.PostParameter"]) - Validation state: "Valid"
+2019-04-19 19:59:55.072 +08:00 [INF] 测试日志
+2019-04-19 19:59:55.077 +08:00 [INF] Entity Framework Core 2.2.3-servicing-35854 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-04-19 19:59:55.123 +08:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Posts] AS [p]
+2019-04-19 19:59:55.199 +08:00 [INF] Executed DbCommand (7ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Author], [p].[Body], [p].[LastModified], [p].[Remark], [p].[Title]
+FROM [Posts] AS [p]
+ORDER BY [p].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-04-19 19:59:55.234 +08:00 [INF] Executed action method BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 162.35840000000002ms.
+2019-04-19 19:59:55.236 +08:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.IEnumerable`1[[System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BlogDemo.Infrastructure.Dto.Links.LinkDto, BlogDemo.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-19 19:59:55.242 +08:00 [INF] Executed action BlogDemo.API.Controllers.PostsController.Get (BlogDemo.API) in 179.8612ms
